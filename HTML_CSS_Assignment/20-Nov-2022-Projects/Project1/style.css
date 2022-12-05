@@ -1,0 +1,63 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+body{
+    margin: 50px 0px 0px 100px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar-container{
+    display: flex;
+    align-items: center;
+}
+.grow-list{
+    margin-left: 30px;
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    gap: 55px;
+}
+.list-item{
+color: grey;
+}
+.list-item:first-child{
+    color: black;
+}
+.button-group{
+    position: absolute;
+    right: 100px;
+}
+.nav-button{
+    padding: 15px;
+    border-radius: 10px;
+    width: 130px;
+    background-color: #532bb7;
+    color: white;
+    border: none;
+}
+
+.banner-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+.heading-text{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.illustration-img{
+    margin-top: 50px;
+}
+
+.btn{
+    width: 200px;
+    padding: 20px;
+    margin-top: 40px;
+}
+span{
+    color: #532bb7;
+}
+.description{
+    color: grey;
+}
