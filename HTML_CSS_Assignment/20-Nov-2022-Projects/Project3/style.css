@@ -1,0 +1,122 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    max-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    font-size: 25px;
+}
+.button-group{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav-button{
+    width: 140px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: white;
+    color: grey;
+}
+.hero-container{
+    /* display: grid;
+    grid-template-columns: 40% 60%; */
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    height: 85vh;
+    
+}
+.globe{
+    position: relative;
+    left: 250px;
+    bottom: 330px;
+}
+.person{
+    position: relative;
+    bottom: 350px;
+}
+.square{
+    position: relative;
+    top: 180px;
+    left: 80px;
+}
+.star1{
+    position: absolute;
+    right: 180px;
+
+}
+.star2{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+.hero-container-right{
+    width: 700px;
+    position: absolute;
+    bottom: 150px;
+    right: 160px;
+    text-align: center;
+}
+
+.hero-heading{
+    font-size: 70px;
+}
+.hero-description{
+    width: 580px;
+    position: relative;
+    left: 80px;
+    color: grey;
+    margin-top: 30px;
+}
+.button-email{
+    margin-top: 80px;
+    width: 160px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    color: black;
+    background-color: white;
+}
+.button-join{
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.contact-heading{
+    position: relative;
+    top: 80px;
+    font-size: 20px;
+    color: grey;
+}
+.icons{
+    position: relative;
+    top: 100px;
+}
+.icons span{
+    margin-left: 20px;
+}
+.icons span img{
+    width: 30px;
+}
