@@ -1,4 +1,4 @@
 # Work Flow of this project
 
-**Generated Output Image**
-![Output]()
+**Click below to see live Vscode webpages :**
+[Click Here](https://prithvi-vscode.netlify.app/)
