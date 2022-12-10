@@ -9,13 +9,13 @@
 </head>
 <body class="m-0 p-0 box-border">
     <!-- Navbar -->
-    <nav class="bg-[#333] text-white h-12 px-[180px] flex items-center justify-between sticky top-0">
+    <nav class="px-8 bg-[#333] text-white lg:h-12 xl:px-[180px] lg:flex items-center justify-between sticky top-0">
         <div class="flex items-center">
             <div class="flex items-center">
                 <img class="w-6 cursor-pointer" src="./assests/vs_logo.png" alt="vs_logo">
                 <span class="ml-3 text-lg cursor-pointer">Visual Studio Code</span>
             </div>
-            <ul class="flex items-center ml-7 gap-x-7 text-gray-400 font-semibold">
+            <ul class="md:flex items-center ml-7 gap-x-7 text-gray-400 font-semibold">
                 <li class="hover:text-white cursor-pointer">Docs</li>
                 <li class="hover:text-white cursor-pointer">Updates</li>
                 <li class="hover:text-white cursor-pointer">Blog</li>
@@ -28,7 +28,7 @@
         <div class="flex items-center">
             <div class="h-12 px-3 flex items-center bg-gray-700 hover:bg-gray-600 ">
                 <svg class="w-4 fill-white cursor-pointer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path  d="M10.5 0C7.4 0 5 2.5 5 5.5c0 1.2.4 2.3 1 3.2L.3 14.4c-.4.4-.4.9 0 1.3.1.2.4.3.6.3s.5-.1.6-.3L7.3 10c.9.6 2 1 3.2 1 3 0 5.5-2.5 5.5-5.5S13.5 0 10.5 0zm0 9.2c-2 0-3.7-1.7-3.7-3.7s1.7-3.7 3.7-3.7 3.7 1.7 3.7 3.7c0 2.1-1.7 3.7-3.7 3.7z"/></svg>
-                <input class="w-[120px] ml-3 h-12 bg-gray-700 hover:bg-gray-600 outline-none" type="text" placeholder="Search Docs">
+                <input class="w-[120px] ml-3 h-12 bg-gray-700 hover:bg-gray-600   outline-none" type="text" placeholder="Search Docs">
             </div>
             
             <div class="px-5 flex items-center bg-[#005ba4] h-12 hover:bg-blue-900 cursor-pointer">
@@ -39,7 +39,7 @@
     </nav>
 
     <!-- First Page -->
-    <div class="bg-[#333] text-white h-[690px]">
+    <div class="bg-[#333] text-white lg:h-[690px]">
 
         <section aria-label="version-section">
             <div class="bg-[#25252b] text-center h-12 pt-2">
@@ -48,8 +48,8 @@
         </section>
 
         <section aria-label="download-section">
-            <div class="px-[100px] flex  mt-14 w-[100%]">
-                <div class="w-[40%] text-center">
+            <div class="lg:flex lg:px-[100px] mt-14 w-[100%]">
+                <div class="lg:w-[40%] text-center">
                     <p class="text-[50px] font-light">Code editing.</p>
                     <p class="text-[50px] mt-0">Redefined.</p>
                     <p class="text-lg mb-5 text-gray-400">Free. Built on open source. Runs everywhere.</p>
@@ -68,38 +68,38 @@
                         By using VS Code, you agree to its <a href="" class="text-blue-400 hover:underline"> license and privacy statement.</a>
                     </p>
                 </div>
-                <div class="w-[60%]">
-                    <img class="w-[700px] h-[540px]" src="./assests/vs_sc.png" alt="vscode screenshot">
+                <div class="py-8 lg:w-[60%] text-center">
+                    <img class="w-[550px] h-[390px] lg:w-[700px] lg:h-[540px] mx-auto" src="./assests/vs_sc.png" alt="vscode screenshot">
                 </div>
             </div>
         </section>
     </div>
 
     <!-- Second Section -->
-    <section class="w-[100%] px-[180px] flex items-center justify-evenly ">
-        <div class="w-[25%] box-border py-6 flex flex-col justify-center text-center hover:bg-[#dfdfdf]">
+    <section class="w-[100%] lg:px-[180px] sm:flex items-center justify-evenly">
+        <div class="w-[25%] box-border py-6 flex flex-col justify-center text-center hover:bg-[#dfdfdf] mx-auto">
             <i class="fa-solid fa-bug text-[40px]"></i>
             <p class="text-xl mt-3">IntelliSence</p>
         </div>
-        <div class="w-[25%] box-border py-6 flex flex-col justify-center text-center hover:bg-[#dfdfdf]">
+        <div class="w-[25%] box-border py-6 flex flex-col justify-center text-center hover:bg-[#dfdfdf] mx-auto">
             <i class="fa-solid fa-bug text-[40px]"></i>
             <p class="text-xl mt-3">Run and Debug</p>
         </div>
-        <div class="w-[25%] box-border  py-6 flex flex-col justify-center text-center hover:bg-[#dfdfdf]">
+        <div class="w-[25%] box-border  py-6 flex flex-col justify-center text-center hover:bg-[#dfdfdf] mx-auto">
             <i class="fa-solid fa-code-branch text-[40px]"></i>
             <p class="text-xl mt-3">Built-in Git</p>
         </div>
-        <div class="w-[25%] box-border  py-6 flex flex-col justify-center text-center hover:bg-[#dfdfdf]">
+        <div class="w-[25%] box-border  py-6 flex flex-col justify-center text-center hover:bg-[#dfdfdf] mx-auto">
             <i class="fa-solid fa-code-branch text-[40px]"></i>
             <p class="text-xl mt-3">Extensions</p>
         </div>
     </section>
 
     <!-- Third Section -->
-    <section class="bg-[#f5f5f5] px-[180px] flex items-center justify-between py-[80px] gap-x-16">
+    <section class="bg-[#f5f5f5] lg:px-[180px] lg:flex items-center justify-between py-[80px] gap-x-16">
         <div>
             <div class="flex rounded">
-                <img class="rounded-[50%] h-[100px] cursor-pointer" src="./assests/my_logo.jpg" alt="my_logo">
+                <img class="rounded-[50%] h-[100px]" src="./assests/my_logo.jpg" alt="my_logo">
                 <div class="ml-2">
                     <p class="font-semibold cursor-pointer hover:text-blue-600">Una Kravets <span class="text-gray-400 text-xs">@Una</span></p>
                     <p class="text-gray-600 text-lg">VS @code does so many things right. I'm constantly impressed by the UX, 
@@ -110,7 +110,7 @@
         </div>
         <div>
             <div class="flex rounded">
-                <img class="rounded-[50%] h-[100px] cursor-pointer" src="./assests/my_logo.jpg" alt="my_logo">
+                <img class="rounded-[50%] h-[100px]" src="./assests/my_logo.jpg" alt="my_logo">
                 <div class="ml-2">
                     <p class="font-semibold cursor-pointer hover:text-blue-600">Una Kravets <span class="text-gray-400 text-xs">@Una</span></p>
                     <p class="text-gray-600 text-lg">VS @code does so many things right. I'm constantly impressed by the UX, 
@@ -121,7 +121,7 @@
         </div>
         <div>
             <div class="flex rounded">
-                <img class="rounded-[50%] h-[100px] cursor-pointer" src="./assests/my_logo.jpg" alt="my_logo">
+                <img class="rounded-[50%] h-[100px]" src="./assests/my_logo.jpg" alt="my_logo">
                 <div class="ml-2">
                     <p class="font-semibold cursor-pointer hover:text-blue-600">Una Kravets <span class="text-gray-400 text-xs">@Una</span></p>
                     <p class="text-gray-600 text-lg">VS @code does so many things right. I'm constantly impressed by the UX, 
@@ -133,9 +133,9 @@
     </section>
 
     <!--Fourth Section  -->
-    <section class="px-[180px] flex justify-between py-[80px] ">
-        <div class="w-[32%]">
-            <svg width="362px" height="" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 360 235" fill="none">
+    <section class="px-8 xl:px-[180px] md:flex justify-between py-[80px] ">
+        <div class="lg:w-[40%]">
+            <svg width="362px" class="mx-auto" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 360 235" fill="none">
                 <path d="M26.5198 97.5H308.1V112.58H26.5198V97.5Z" fill="#E6E7E8"/>
                 <path d="M2.6001 2.60001H308.1V197.34H2.6001V2.60001Z" stroke="#6D6E71" stroke-width="5.2" stroke-miterlimit="10"/>
                 <path d="M2.6001 2.60001H23.9201V197.34H2.6001V2.60001Z" fill="#D1D3D4" stroke="#6D6E71" stroke-width="5.2" stroke-miterlimit="10"/>
@@ -162,20 +162,20 @@
                 <path d="M312.639 85.991C314.659 85.991 316.606 86.2512 318.48 86.7718C320.354 87.2923 322.103 88.0315 323.727 88.9893C325.372 89.9471 326.86 91.0923 328.193 92.4248C329.526 93.7574 330.671 95.2462 331.629 96.8911C332.586 98.5151 333.325 100.264 333.846 102.138C334.367 104.012 334.627 105.959 334.627 107.979C334.627 110.998 334.054 113.798 332.909 116.38C331.764 118.962 330.129 121.304 328.006 123.407C326.277 125.115 324.945 127.02 324.008 129.123C323.092 131.226 322.634 133.506 322.634 135.963V143.958C322.634 144.791 322.477 145.572 322.165 146.301C321.853 147.029 321.426 147.664 320.885 148.206C320.343 148.747 319.708 149.174 318.979 149.486C318.251 149.799 317.47 149.955 316.637 149.955H308.641C307.809 149.955 307.028 149.799 306.299 149.486C305.57 149.174 304.935 148.747 304.394 148.206C303.852 147.664 303.426 147.029 303.113 146.301C302.801 145.572 302.645 144.791 302.645 143.958V135.963C302.645 133.506 302.176 131.226 301.239 129.123C300.323 127.02 299.001 125.115 297.273 123.407C295.149 121.304 293.515 118.962 292.369 116.38C291.224 113.798 290.652 110.998 290.652 107.979C290.652 105.959 290.912 104.012 291.432 102.138C291.953 100.264 292.692 98.5151 293.65 96.8911C294.608 95.2462 295.753 93.7574 297.085 92.4248C298.418 91.0923 299.896 89.9471 301.52 88.9893C303.165 88.0315 304.925 87.2923 306.799 86.7718C308.673 86.2512 310.62 85.991 312.639 85.991ZM316.637 145.957C317.178 145.957 317.647 145.759 318.042 145.364C318.438 144.968 318.636 144.5 318.636 143.958V137.962H306.643V143.958C306.643 144.5 306.84 144.968 307.236 145.364C307.632 145.759 308.1 145.957 308.641 145.957H316.637ZM318.73 133.964C319 131.278 319.687 128.842 320.791 126.656C321.894 124.469 323.383 122.429 325.257 120.534C326.985 118.785 328.307 116.88 329.224 114.818C330.161 112.736 330.629 110.456 330.629 107.979C330.629 105.501 330.15 103.169 329.192 100.983C328.255 98.7962 326.975 96.8911 325.351 95.267C323.727 93.6429 321.822 92.3624 319.635 91.4254C317.449 90.4676 315.117 89.9887 312.639 89.9887C310.161 89.9887 307.829 90.4676 305.643 91.4254C303.457 92.3624 301.552 93.6429 299.928 95.267C298.304 96.8911 297.013 98.7962 296.055 100.983C295.118 103.169 294.649 105.501 294.649 107.979C294.649 110.456 295.107 112.736 296.024 114.818C296.961 116.88 298.293 118.785 300.021 120.534C301.895 122.429 303.384 124.469 304.488 126.656C305.591 128.842 306.278 131.278 306.549 133.964H318.73Z" fill="white"/>
             </svg>
         </div>
-        <div class="w-[56%]">
+        <div class="lg:w-[60%] mx-auto text-center">
             <p class="text-[30px] font-light">Meet IntelliSence</p>
             <p class="mt-8 leading-10 text-lg">Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p>
         </div>
     </section>
 
     <!-- Fifth Section -->
-    <section class="px-[180px] flex justify-between py-[80px] bg-[#f5f5f5]">
-        <div class="w-[56%]">
+    <section class="px-8 xl:px-[180px] md:flex justify-between py-[80px] bg-[#f5f5f5]">
+        <div class="lg:w-[60%] text-center">
             <p class="text-[30px] font-light">Print statement debugging is a thing of the past.</p>
             <p class="mt-8 leading-10 text-lg">Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p>
         </div>
-        <div class="w-[32%]">
-            <svg xmlns="http://www.w3.org/2000/svg" width="360" height="235" viewBox="0 0 360 235" fill="none">
+        <div class="lg:w-[40%]">
+            <svg class="mt-16 mx-auto" xmlns="http://www.w3.org/2000/svg" width="360" height="235" viewBox="0 0 360 235" fill="none">
                 <g clip-path="url(#clip0)">
                 <path opacity="0.75" d="M352.711 81.7438H140.281V96.843H352.711V81.7438Z" fill="#FAAF40"/>
                 <path d="M355.054 2.6033H49.1655V197.591H355.054V2.6033Z" stroke="#6D6E70" stroke-width="5.20661" stroke-miterlimit="10"/>
@@ -218,9 +218,9 @@
     </section>
 
     <!-- Sixth Section -->
-    <section class="px-[180px] flex justify-between py-[80px]">
-        <div class="w-[32%]">
-            <svg xmlns="http://www.w3.org/2000/svg" width="360" height="235" viewBox="0 0 360 235" fill="none">
+    <section class="px-8 xl:px-[180px] md:flex justify-between py-[80px]">
+        <div class="lg:w-[40%]">
+            <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="360" height="235" viewBox="0 0 360 235" fill="none">
                 <path opacity="0.75" d="M202.597 49.0909H95.584V81.8182H202.597V49.0909Z" fill="#F42534"/>
                 <path opacity="0.75" d="M305.454 49.0909H207.272V81.8182H305.454V49.0909Z" fill="#39B54A"/>
                 <path d="M307.792 2.59741H2.59717V197.143H307.792V2.59741Z" stroke="#6D6E71" stroke-width="5.19481" stroke-miterlimit="10"/>
@@ -268,27 +268,27 @@
                 <path d="M336.001 107C336.01 105.143 335.502 103.321 334.535 101.737C333.567 100.152 332.177 98.8686 330.521 98.0295C328.865 97.1904 327.008 96.8288 325.158 96.9854C323.308 97.142 321.538 97.8105 320.046 98.916C318.555 100.022 317.4 101.521 316.713 103.245C316.025 104.969 315.831 106.851 316.152 108.68C316.473 110.509 317.297 112.212 318.531 113.598C319.766 114.985 321.362 116.001 323.141 116.532C322.484 117.867 321.468 118.992 320.206 119.782C318.945 120.571 317.489 120.993 316.001 121H308.001C305.039 121.01 302.188 122.123 300.001 124.12V104.796C302.429 104.3 304.586 102.921 306.055 100.925C307.524 98.9289 308.199 96.4586 307.95 93.993C307.701 91.5274 306.545 89.2421 304.707 87.5802C302.869 85.9182 300.479 84.9981 298.001 84.9981C295.523 84.9981 293.133 85.9182 291.295 87.5802C289.456 89.2421 288.301 91.5274 288.051 93.993C287.802 96.4586 288.478 98.9289 289.946 100.925C291.415 102.921 293.573 104.3 296.001 104.796V129.196C293.577 129.66 291.407 130.994 289.9 132.947C288.392 134.901 287.652 137.338 287.818 139.8C287.984 142.262 289.045 144.578 290.801 146.311C292.557 148.045 294.887 149.075 297.351 149.209C299.815 149.343 302.242 148.571 304.176 147.038C306.109 145.505 307.415 143.318 307.847 140.888C308.279 138.459 307.807 135.955 306.52 133.85C305.233 131.745 303.22 130.183 300.861 129.46C301.519 128.126 302.536 127.003 303.797 126.215C305.058 125.427 306.514 125.006 308.001 125H316.001C318.497 124.988 320.927 124.199 322.953 122.741C324.979 121.284 326.5 119.231 327.305 116.868C329.702 116.553 331.905 115.379 333.504 113.565C335.102 111.751 335.99 109.418 336.001 107ZM292.001 95C292.001 93.8133 292.353 92.6533 293.012 91.6666C293.671 90.6799 294.608 89.9109 295.705 89.4568C296.801 89.0026 298.008 88.8838 299.171 89.1153C300.335 89.3468 301.404 89.9183 302.243 90.7574C303.083 91.5965 303.654 92.6656 303.886 93.8295C304.117 94.9934 303.998 96.1998 303.544 97.2961C303.09 98.3925 302.321 99.3296 301.334 99.9889C300.348 100.648 299.188 101 298.001 101C296.41 101 294.883 100.368 293.758 99.2427C292.633 98.1175 292.001 96.5913 292.001 95ZM304.001 139C304.001 140.187 303.649 141.347 302.99 142.333C302.33 143.32 301.393 144.089 300.297 144.543C299.201 144.997 297.994 145.116 296.83 144.885C295.666 144.653 294.597 144.082 293.758 143.243C292.919 142.404 292.348 141.334 292.116 140.171C291.885 139.007 292.003 137.8 292.458 136.704C292.912 135.608 293.681 134.671 294.667 134.011C295.654 133.352 296.814 133 298.001 133C299.592 133 301.118 133.632 302.243 134.757C303.369 135.883 304.001 137.409 304.001 139ZM326.001 113C324.814 113 323.654 112.648 322.667 111.989C321.681 111.33 320.912 110.392 320.458 109.296C320.003 108.2 319.885 106.993 320.116 105.829C320.348 104.666 320.919 103.597 321.758 102.757C322.597 101.918 323.666 101.347 324.83 101.115C325.994 100.884 327.201 101.003 328.297 101.457C329.393 101.911 330.33 102.68 330.99 103.667C331.649 104.653 332.001 105.813 332.001 107C332.001 108.591 331.369 110.117 330.243 111.243C329.118 112.368 327.592 113 326.001 113Z" fill="white"/>
             </svg>
         </div>
-        <div class="w-[56%]">
+        <div class="lg:w-[60%] text-center">
             <p class="text-[30px] font-light">Meet IntelliSence</p>
             <p class="mt-8 leading-10 text-lg">Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p>
         </div>
     </section>
 
     <!-- Seventh Section -->
-    <section class="px-[180px] flex justify-between py-[80px] bg-[#f5f5f5] ">
-        <div class="w-[55%]">
+    <section class="px-8 xl:px-[180px] md:flex justify-between py-[80px] bg-[#f5f5f5] ">
+        <div class="md:w-[60%] text-center">
             <p class="text-[30px] font-light">Extensible and customizable.</p>
             <p class="mt-8 leading-10 text-lg">Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor.<a href="" class="text-blue-600 hover:underline"> Learn more about extensions.</a></p>
         </div>
-        <div class="w-[40%]">
-            <img class="float-right transition ease-in hover:duration-700 hover:scale-125" width="350px" src="./assests/Hundreds-of-Extensions.png" alt="Hundreds-of-Extensions">
+        <div class="md:w-[40%]">
+            <img class="mt-16 transition ease-in hover:duration-700 hover:scale-125 mx-auto" width="350px" src="./assests/Hundreds-of-Extensions.png" alt="Hundreds-of-Extensions">
         </div>
     </section>
 
     <!--Eighth Section-->
-    <section class="px-[180px] flex justify-between py-[80px]">
-        <div class="w-[32%]">
-            <svg xmlns="http://www.w3.org/2000/svg" width="360" height="235" viewBox="0 0 360 235" fill="none">
+    <section class="px-8 xl:px-[180px] md:flex justify-between py-[80px]">
+        <div class="md:w-[40%] box-border">
+            <svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="360" height="235" viewBox="0 0 360 235" fill="none">
                 <path d="M309.351 2.59741H4.15601V197.143H309.351V2.59741Z" stroke="#6D6E70" stroke-width="5.19481" stroke-miterlimit="10"/>
                 <path d="M25.4547 2.59741H4.15601V197.143H25.4547V2.59741Z" fill="#D0D2D3" stroke="#6D6E70" stroke-width="5.19481" stroke-miterlimit="10"/>
                 <path d="M14.8054 19.7402C17.8178 19.7402 20.2599 17.2982 20.2599 14.2857C20.2599 11.2732 17.8178 8.83115 14.8054 8.83115C11.7929 8.83115 9.35083 11.2732 9.35083 14.2857C9.35083 17.2982 11.7929 19.7402 14.8054 19.7402Z" fill="#6D6E70"/>
@@ -334,16 +334,16 @@
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M299.616 93.3006C300.13 91.7762 301.56 90.7499 303.169 90.7499H305.124H306.029L306.029 90.75H320.83C322.439 90.75 323.869 91.7764 324.383 93.3008L339.571 138.3C340.391 140.731 338.583 143.25 336.018 143.25H318.875V143.233C318.758 143.244 318.639 143.25 318.518 143.25H318.452C317.647 143.25 316.862 142.99 316.216 142.51L304.767 134.005L302.507 140.699C301.993 142.223 300.563 143.249 298.954 143.249H287.982C285.416 143.249 283.608 140.731 284.429 138.3L299.616 93.3006ZM296.642 124.855L317.707 140.503C317.922 140.663 318.184 140.75 318.452 140.75H318.518C319.373 140.75 319.976 139.91 319.702 139.1L311.315 114.249L307.751 123.724L307.446 124.534H306.581H296.212L296.642 124.855ZM336.018 140.75H322.055C322.324 139.995 322.355 139.142 322.071 138.3L306.883 93.3008C306.878 93.2838 306.872 93.2669 306.866 93.25H320.83C321.367 93.25 321.843 93.5921 322.015 94.1003L337.202 139.1C337.475 139.91 336.873 140.75 336.018 140.75Z" fill="white"/>
                 </svg>
         </div>
-        <div class="w-[56%]">
+        <div class="md:w-[60%] text-center">
             <p class="text-[30px] font-light">Deploy with confidence and ease</p>
             <p class="mt-8 leading-10 text-lg">With Microsoft Azure you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease,<a href="" class="text-blue-600"> all from within VS Code.</a></p>
         </div>
     </section>
 
     <!-- Ninth Section -->
-    <section class="px-[180px] py-[80px] bg-[#f5f5f5]">
+    <section class="px-8 xl:px-[180px] py-[80px] bg-[#f5f5f5]">
         <p class="text-center text-[30px] font-light">VS Code for</p>
-        <div class="flex justify-center items-center  mt-[30px] gap-x-14">
+        <div class="grid grid-cols-3 grid-rows-2 lg:flex justify-center items-center  mt-[30px] gap-x-14">
                 <div>
                     <div class="flex">
                         <svg xmlns="http://www.w3.org/2000/svg" width="34" height="32" viewBox="0 0 25 24" fill="none">
@@ -443,10 +443,10 @@
     </section>
 
     <!-- Tenth Section -->
-    <section class="box-border px-[180px] py-[80px] flex items-top justify-center gap-x-12">
+    <section class="box-border px-8 xl:px-[180px] py-[80px] lg:flex items-top justify-center gap-x-12 grid">
         <div>
             <img class="mx-auto" height="100px" width="100px" src="./assests/window_logo.png" alt="window_logo">
-            <div class="mt-6 bg-[#005ba4]  hover:bg-blue-900 text-white w-[250px] py-3 text-center">
+            <div class="mt-6 bg-[#005ba4]  hover:bg-blue-900 text-white w-[250px] py-3 text-center mx-auto">
                 <div class="flex items-center justify-center">
                     <svg class="w-4 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path class="fill-white" d="M13 8.5l-1.3-1.4L8.9 10V0H7.1v10L4.3 7.1 3 8.5l5 5zM3.6 14.1h8.8V16H3.6z"/></svg>
                     <span class="ml-3 text-lg">Windows</span>
@@ -526,7 +526,7 @@
         </div>
         <div>
             <img class="mx-auto" height="100px" width="100px" src="./assests/mac_logo.png" alt="mac_logo">
-            <div class="mt-6 bg-[#005ba4] hover:bg-blue-900 text-white w-[250px] py-3 text-center">
+            <div class="mt-6 bg-[#005ba4] hover:bg-blue-900 text-white w-[250px] py-3 text-center mx-auto">
                 <div class="flex items-center justify-center">
                     <svg class="w-4 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path class="fill-white" d="M13 8.5l-1.3-1.4L8.9 10V0H7.1v10L4.3 7.1 3 8.5l5 5zM3.6 14.1h8.8V16H3.6z"/></svg>
                     <span class="ml-3 text-lg">Mac</span>
@@ -545,13 +545,13 @@
     </section>
 
     <!-- Eleventh Section -->
-    <section class="bg-[#f5f5f5] px-[180px] py-[50px]">
-        <div class=" flex items-top justify-between">
-            <div class="text-center px-36">
+    <section class="bg-[#f5f5f5] px-8 xl:px-[180px] py-[50px]">
+        <div class="lg:flex items-top justify-between">
+            <div class="text-center xl:px-36 md:px-36 md:py-10">
                 <p class="font-semibold text-xl">Want new features sooner?</p>
                 <p class="mt-2 text-lg">Get the <span class="text-blue-600"><a href="" class="hover:underline">Insiders build </a></span>instead.</p>
             </div>
-            <div class="text-center px-36">
+            <div class="text-center xl:px-36 md:px-36 md:py-10 mt-6">
                 <p class="font-semibold text-xl">Use <span class="text-blue-600"><a href="" class="hover:underline">vscode.dev</a></span> for quick edits</p>
                 <p class="font-semibold text-xl">online!</p>
                 <p class="mt-2 text-lg">GitHub, Azure Repos, and local files.</p>
@@ -560,16 +560,16 @@
 
         <div class="text-center mt-10">
             <p class="font-medium text-sm text-gray-500">LICENSE AND PRIVACY TERMS</p>
-            <p class="px-52 leading-10 text-gray-500 text-sm">
+            <p class="md:px-52 leading-10 text-gray-500 text-sm">
                 By downloading and using Visual Studio Code, you agree to the <span class="text-blue-600"><a href="" class="hover:underline">license terms</a></span> and <span class="text-blue-600"><a href="" class="hover:underline"> privacy statement.</a></span> 
                 VS Code automatically sends telemetry data and crash dumps to help us improve the product. 
                 If you would prefer not to have this data sent please go see<span class="text-blue-600"><a href="" class="hover:underline"> How to Disable Crash Reporting to learn how to disable it.</a></span>
             </p>
         </div>
     </section>
-    
+
     <!-- Footer Section -->
-    <section class="px-[180px] py-[20px] bg-[#333] text-white flex justify-between text-md">
+    <section class="px-8 xl:px-[180px] py-[20px] bg-[#333] text-white lg:flex justify-between text-md">
         <div class="flex justify-center">
             <div>Hello from Seattle.</div>
             <div class="ml-6 cursor-pointer hover:text-[#7f03fc]">Follow @code</div>
@@ -579,7 +579,7 @@
             </div>
             <div class="ml-1 bg-white text-black rounded px-2 h-6 cursor-pointer">139,697</div>
         </div>
-        <div  class="flex justify-center text-sm">
+        <div  class="flex justify-center text-sm mt-6">
             <div class="cursor-pointer hover:text-[#7f03fc]">Support</div>
             <div class="ml-6 cursor-pointer hover:text-[#7f03fc]">Privacy</div>
             <div class="ml-6 cursor-pointer hover:text-[#7f03fc]">Term of Use</div>
