@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1536px;
+    margin: auto;
+    font-family: 'Average Sans';
+    overflow: hidden;
+}
+
+.first-section{
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+
+.navbar-container{
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-center .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: None;
+    gap: 60px;
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.navbar-right div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.navbar-right div:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    position: relative;
+    right: 20px;
+}
+
+main{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.one-card{
+    font-size: 50px;
+}
+ 
+main section{
+    width: 50%;
+}
+.main-section{
+    display: flex;
+    text-align: center;
+}
+.left-section > p{
+    margin-top: 10px;
+    color: grey;
+    font-size: 20px;
+}
+.left-section .get-started{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+}
+.left-section .get-started p {
+    position: relative;
+    right: 20px;
+    font-size: 20px;
+}
+.left-section .users{
+    display: flex;
+    text-align: center;
+}
+.right-section{
+    height: 80vh;
+}
+.right-section img{
+    width: 100%;
+    position:relative;
+    right: 0;
+}
+.right-section img:first-child{
+    top: -150px;
+    left: -80px;  
+}
+.right-section img:last-child{
+    right: -100px;
+}
