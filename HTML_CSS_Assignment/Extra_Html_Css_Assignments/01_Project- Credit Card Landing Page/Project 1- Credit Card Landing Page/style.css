@@ -8,22 +8,22 @@ body{
     max-width: 1536px;
     margin: auto;
     font-family: 'Average Sans';
-    overflow: hidden;
+    overflow-x: hidden;
     font-size: 20px;
 }
 
+
+/* First page */
 .first-section{
     background-color: rgb(12, 12, 12);
     color: white;
 }
-
 .navbar-container{
     padding: 40px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .navbar-center .list{
     display: flex;
     justify-content: center;
@@ -31,7 +31,6 @@ body{
     list-style-type: None;
     gap: 60px;
 }
-
 .navbar-right{
     display: flex;
     justify-content: center;
@@ -59,12 +58,12 @@ body{
 main{
     margin-top: 50px;
     margin-left: 100px;
+    height: 110vh;
 }
 .one-card{
     width: 75%;
     font-size: 100px;
 }
- 
 main section{
     width: 50%;
 }
@@ -86,7 +85,6 @@ main .main-section{
     right: 25px;
     font-size: 25px;
 }
-
 .left-section .users{
     margin-top: 60px;
     display: flex;
@@ -100,7 +98,6 @@ main .main-section{
     display: flex;
     align-items: center;
 }
-
 .left-section .users .active-user p:first-child, .left-section .users .experience p:first-child{
     font-size: 50px;
 }
@@ -108,7 +105,6 @@ main .main-section{
     font-size: 25px;
     margin-left: 15px;
 }
-
 .right-section img{
     width: 60%;
     position:absolute;
@@ -120,4 +116,65 @@ main .main-section{
 .right-section img:last-child{
    top:90px;
    right: -200px;
+}
+
+
+/* Logo section */
+.logo-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 60 40px;
+    background-color: rgb(52, 47, 47);
+}
+
+
+/* Second page */
+.second-section{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding: 100px;
+}
+.second-section .first-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-section .first-div .child1{
+    width: 60%;
+    font-size: 80px;
+}
+.second-section .first-div .child2{
+    width: 40%;
+    font-size: 25px;
+    color: gray;
+}
+.second-section .second-div{
+    margin-top: 60px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-section .second-div div{
+    border: 1px solid white;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    
+}
+.second-section .second-div .child1{
+    padding-top: 20px;
+    font-size: 30px;
+}
+.second-section .second-div .child2{
+    padding-top: 20px;
+    font-size: 30px;
+    align-self: flex-end;
+    background: grey;
+}
+.second-section .second-div .child3{
+    padding-top: 20px;
+    font-size: 30px;
 }
