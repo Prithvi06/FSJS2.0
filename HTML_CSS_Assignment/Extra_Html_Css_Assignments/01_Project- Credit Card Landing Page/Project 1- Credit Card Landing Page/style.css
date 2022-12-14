@@ -64,7 +64,7 @@ main{
     /* width: 75%; */
     font-size: 85px;
 }
-.one-card span{
+.pink{
     color: #f637ec;
 }
 main section{
@@ -97,9 +97,7 @@ main .main-section{
 .left-section .users{
     width: 100%;
 }
-.left-section .users .plus{
-    color: #f637ec;
-}
+
 .left-section .users .active-user, .left-section .users .experience{
     display: flex;
     align-items: center;
@@ -166,6 +164,7 @@ main .main-section{
 }
 .second-section .second-div div{
     border: 1px solid white;
+    border-right: black;
     width: 350px;
     height: 300px;
     text-align: center;
@@ -184,4 +183,165 @@ main .main-section{
 .second-section .second-div .child3{
     padding-top: 20px;
     font-size: 30px;
+}
+
+
+/* Third page */
+.third-section{
+    height: 160vh;
+    padding: 80px 100px;
+    background-color: rgb(253, 239, 244);
+    overflow: hidden;
+}
+.third-section .first-div{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.third-section .first-div div:first-child{
+    font-size: 70px;
+}
+.third-section .first-div div:last-child{
+    padding-top: 50px;
+    font-size: 20px;
+    color: grey;
+}
+.third-section .vcard-div{
+    margin: auto;
+}
+.third-section .vcard-img{
+    position: relative;
+    top: -50px;
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+
+
+/* fouth page */
+.fourth-section{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding: 80px 100px;
+}
+.fourth-section .first-div div:first-child{
+    font-size: 70px;
+    text-align: center;
+}
+.fourth-section .first-div div:last-child{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+    color: gray;
+}
+.fourth-section .second-div{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fourth-section .second-div div{
+    border: 1px solid white;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: start;
+    padding: 20px;
+    border-bottom: black;
+}
+.fourth-section .second-div .child1{
+    background-color: gray;
+}
+.address{
+    font-size: 16px;
+}
+.fourth-section .third-div{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fourth-section .third-div div{
+    border: 1px solid white;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: start;
+    padding: 20px;
+    border-bottom: black;
+}
+.fourth-section .bottom-div{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.fourth-section .bottom-div div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.fourth-section .bottom-div div:first-child{
+    border-radius: 0%;
+    width: 60px;
+    border-radius: 10px;
+    background-color: #f637ec;
+
+}
+
+.customing-card{
+    margin-top: 100px;
+    position: relative;
+
+}
+.customing-card .rectangle6773{
+   width: 100%;
+}
+.customing-card .rectangle6774{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.customing-card .diamond-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.customing-card .diamond-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.customing-card > p{
+    position: absolute;
+    top:100px;
+    left:0;
+    right:0;
+    font-size: 70px;
+    text-align: center;
+}
+.customing-card p span{
+    color: black;
+}
+.customing-card .get-started{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 130px;
+    left: 0;
+    right: 0;
+}
+.customing-card .get-started p{
+    position: relative;
+    right: 30px;
 }
