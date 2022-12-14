@@ -56,13 +56,16 @@ body{
 
 /* First page */
 main{
-    margin-top: 50px;
+    margin-top: 35px;
     margin-left: 100px;
-    height: 110vh;
+    height: 95vh;
 }
 .one-card{
-    width: 75%;
-    font-size: 100px;
+    /* width: 75%; */
+    font-size: 85px;
+}
+.one-card span{
+    color: #f637ec;
 }
 main section{
     width: 50%;
@@ -94,6 +97,9 @@ main .main-section{
 .left-section .users{
     width: 100%;
 }
+.left-section .users .plus{
+    color: #f637ec;
+}
 .left-section .users .active-user, .left-section .users .experience{
     display: flex;
     align-items: center;
@@ -105,17 +111,18 @@ main .main-section{
     font-size: 25px;
     margin-left: 15px;
 }
+
 .right-section img{
-    width: 60%;
+    width: 50%;
     position:absolute;
     right: 0;
 }
 .right-section img:first-child{
-    top: 20px;
+    top: 100px;
 }
 .right-section img:last-child{
-   top:90px;
-   right: -200px;
+   top: 130px;
+   right: -180px;
 }
 
 
