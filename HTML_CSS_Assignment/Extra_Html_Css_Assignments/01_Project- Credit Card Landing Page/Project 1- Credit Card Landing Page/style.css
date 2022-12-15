@@ -193,18 +193,17 @@ main .main-section{
     background-color: rgb(253, 239, 244);
     overflow: hidden;
 }
-.third-section .first-div{
-    margin: auto;
-    width: 50%;
-    text-align: center;
-}
 .third-section .first-div div:first-child{
     font-size: 70px;
+    text-align: center;
 }
 .third-section .first-div div:last-child{
+    margin: auto;
+    width: 50%;
     padding-top: 50px;
     font-size: 20px;
     color: grey;
+    text-align: center;
 }
 .third-section .vcard-div{
     margin: auto;
