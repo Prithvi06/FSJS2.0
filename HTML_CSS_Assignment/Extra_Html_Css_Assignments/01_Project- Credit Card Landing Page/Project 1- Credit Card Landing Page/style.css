@@ -8,120 +8,144 @@ body{
     max-width: 1536px;
     margin: auto;
     font-family: 'Average Sans';
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     font-size: 20px;
 }
 
+/******Utility Classes******/
+.pink{
+    color: #f637ec;
+}
 
-/* First page */
-.first-section{
+
+/********* Header Section********/
+header{
     background-color: rgb(12, 12, 12);
     color: white;
-}
-.navbar-container{
     padding: 40px 100px;
+}
+header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.navbar-center .list{
+nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
     list-style-type: None;
+    cursor: pointer;
     gap: 60px;
 }
-.navbar-right{
+nav .nav-right{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-.navbar-right div:first-child{
+nav .english{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-.navbar-right div:last-child{
+nav .contactus{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.contact{
+nav .contact{
     position: relative;
     right: 20px;
 }
 
 
-/* First page */
+
+/* First Page Main Section*/
 main{
-    margin-top: 35px;
-    margin-left: 100px;
-    height: 95vh;
-}
-.one-card{
-    /* width: 75%; */
-    font-size: 85px;
-}
-.pink{
-    color: #f637ec;
-}
-main section{
-    width: 50%;
-}
-main .main-section{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    overflow-x: hidden;
+    /* height: 100vh; */
     display: flex;
-}
-.left-section > p{
-    margin-top: 20px;
-    color: grey;
-    font-size: 26px;
-}
-.left-section .get-started{
-    margin-top: 60px;
-    display: flex;
-    align-items: center;
-}
-.left-section .get-started p {
-    position: relative;
-    right: 25px;
-    font-size: 25px;
-}
-.left-section .users{
-    margin-top: 60px;
-    display: flex;
-    align-items: center;
-    gap:50px;
-}
-.left-section .users{
+    justify-content: space-between;
     width: 100%;
+    position: relative;
 }
-
-.left-section .users .active-user, .left-section .users .experience{
+main .main-left{
+    width: 70%;
+}
+main .main-right{
+    width:30%;
+}
+.main-left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.main-left h1{
+    font-size: 6rem;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.main-left h1 span{
+    font-weight: bold;
+}
+.main-left > p{
+    color: gray;
+    width: 70%;
+    font-size: 1.7rem;
+}
+.main-left .get-started-btn{
+    margin-top: 40px;
     display: flex;
     align-items: center;
 }
-.left-section .users .active-user p:first-child, .left-section .users .experience p:first-child{
-    font-size: 50px;
+.get-started-btn span{
+    position: relative;
+    right: 30px;
+    font-size: 1.5rem;
 }
-.left-section .users .active-user p:last-child, .left-section .users .experience p:last-child{
+.info-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.user, .experience{
+    display: flex;
+    align-items: center;
+}
+.user p:first-child, .experience p:first-child{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.active-user, .year-of-experience{
+    margin-left: 20px;
     font-size: 25px;
-    margin-left: 15px;
 }
-
-.right-section img{
-    width: 50%;
-    position:absolute;
-    right: 0;
+.main-right img{
+    width: 60%;
+    position: absolute;
 }
+.main-right img:first-child{
+    top: -80px;
+    right: 100px;
+}
+.main-right img:last-child{
+    top: -50px;
+    right: -150px;
+}
+/* 
 .right-section img:first-child{
-    top: 100px;
+    top: -300px; right: 100px;
 }
 .right-section img:last-child{
-   top: 130px;
-   right: -180px;
-}
+   top: -300px; 
+   right: -90px;
+} */
 
 
 /* Logo section */
