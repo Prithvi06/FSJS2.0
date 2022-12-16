@@ -124,7 +124,7 @@ main .main-right{
 }
 .active-user, .year-of-experience{
     margin-left: 20px;
-    font-size: 25px;
+    font-size: 22px;
 }
 .main-right img{
     width: 60%;
@@ -138,22 +138,14 @@ main .main-right{
     top: -50px;
     right: -150px;
 }
-/* 
-.right-section img:first-child{
-    top: -300px; right: 100px;
-}
-.right-section img:last-child{
-   top: -300px; 
-   right: -90px;
-} */
 
 
-/* Logo section */
+/******Logo section******/
 .logo-section{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 60 40px;
+    padding: 60px 40px;
     background-color: rgb(52, 47, 47);
 }
 
@@ -164,29 +156,28 @@ main .main-right{
     color: white;
     padding: 100px;
 }
-.second-section .first-div{
+.second-section .services{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.second-section .first-div .child1{
+.second-section .services .child1{
     width: 60%;
     font-size: 80px;
 }
-.second-section .first-div .child2{
+.second-section .services .child2{
     width: 40%;
     font-size: 25px;
-    color: gray;
 }
-.second-section .second-div{
+.second-section .service-cards{
     margin-top: 60px;
     height: 350px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.second-section .second-div div{
+.second-section .service-cards div{
     border: 1px solid white;
     border-right: black;
     width: 350px;
@@ -194,17 +185,17 @@ main .main-right{
     text-align: center;
     
 }
-.second-section .second-div .child1{
+.second-section .service-cards .card1{
     padding-top: 20px;
     font-size: 30px;
 }
-.second-section .second-div .child2{
+.second-section .service-cards .card2{
     padding-top: 20px;
     font-size: 30px;
     align-self: flex-end;
     background: grey;
 }
-.second-section .second-div .child3{
+.second-section .service-cards .card3{
     padding-top: 20px;
     font-size: 30px;
 }
@@ -212,18 +203,23 @@ main .main-right{
 
 /* Third page */
 .third-section{
-    height: 160vh;
-    padding: 80px 100px;
+    /* height: 160vh; */
+    padding: 80px 100px 0 80px;
     background-color: rgb(253, 239, 244);
     overflow: hidden;
 }
-.third-section .first-div div:first-child{
-    font-size: 70px;
+.card-choices div:first-child{
+    max-width: 60%;
+    margin: auto;
+    font-size: 5rem;
     text-align: center;
 }
-.third-section .first-div div:last-child{
+.card-choices div:first-child span{
+    font-weight: bold;
+}
+.card-choices div:last-child{
+    max-width: 50%;
     margin: auto;
-    width: 50%;
     padding-top: 50px;
     font-size: 20px;
     color: grey;
@@ -241,29 +237,35 @@ main .main-right{
 }
 
 
-/* fouth page */
+/******Fourth Page******/
 .fourth-section{
     background-color: rgb(12, 12, 12);
     color: white;
     padding: 80px 100px;
 }
-.fourth-section .first-div div:first-child{
-    font-size: 70px;
+.features div:first-child{
+    max-width: 80%;
+    margin: auto;
+    font-size: 5rem;
+    letter-spacing: 1px;
     text-align: center;
 }
-.fourth-section .first-div div:last-child{
+.features div:last-child{
+    max-width: 50%;
+    margin: auto;
     font-size: 25px;
     text-align: center;
+    letter-spacing: 1px;
     padding-top: 30px;
-    color: gray;
+    color: rgb(203, 203, 203);
 }
-.fourth-section .second-div{
+.features-card{
     margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.fourth-section .second-div div{
+.features-card div{
     border: 1px solid white;
     width: 500px;
     height: 250px;
@@ -275,53 +277,34 @@ main .main-right{
     padding: 20px;
     border-bottom: black;
 }
-.fourth-section .second-div .child1{
+.features-card .card1{
     background-color: gray;
 }
 .address{
     font-size: 16px;
 }
-.fourth-section .third-div{
-    margin-top: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.fourth-section .third-div div{
-    border: 1px solid white;
-    width: 500px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    align-items: start;
-    padding: 20px;
-    border-bottom: black;
-}
-.fourth-section .bottom-div{
+.features-carousel{
     margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-.fourth-section .bottom-div div{
-    width: 10px;
-    height: 10px;
+.features-carousel div{
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     background-color: gray;
 }
-.fourth-section .bottom-div div:first-child{
-    border-radius: 0%;
-    width: 60px;
+.features-carousel .long-btn{
+    width: 90px;
     border-radius: 10px;
     background-color: #f637ec;
 
 }
 
 
-/* Fifth page */
+/******Fifth page******/
 .fifth-section{
     background-color: rgb(12, 12, 12);
     color: white;
@@ -330,21 +313,21 @@ main .main-right{
 .customing-card{
     position: relative;
 }
-.customing-card .rectangle6773{
+.rectangle-dark{
    width: 100%;
 }
-.customing-card .rectangle6774{
+.rectangle-light{
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
 }
-.customing-card .diamond-left{
+.diamond-left{
     position: absolute;
     top: 0;
     left: 0;
 }
-.customing-card .diamond-right{
+.diamond-right{
     position: absolute;
     top: 0;
     right: 0;
@@ -354,27 +337,39 @@ main .main-right{
     top:100px;
     left:0;
     right:0;
-    font-size: 70px;
+    max-width: 80%;
+    margin: auto;
+    font-size: 5.5rem;
+    letter-spacing: 2px;
     text-align: center;
 }
 .customing-card p span{
     color: black;
+    font-weight: 500;
 }
 .customing-card .get-started{
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 130px;
+    bottom: 150px;
     left: 0;
     right: 0;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
 .customing-card .get-started p{
     position: relative;
     right: 30px;
 }
+.customing-card .get-started img{
+    position: relative;
+    right: 20px;
+}
 
 
+/******Footer Section******/
 .footer-section{
     background-color: rgb(12, 12, 12);
     color: white;
