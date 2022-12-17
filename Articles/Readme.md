@@ -15,5 +15,5 @@
 ## 5: What is Git and Github:
 [Click Here](https://prithviraj.hashnode.dev/what-is-git-and-github)
 
-## Everthing about array in javascript:
+## 6: Everthing about array in javascript:
 [Click Here](https://prithviraj.hashnode.dev/everything-about-array-in-javascript)

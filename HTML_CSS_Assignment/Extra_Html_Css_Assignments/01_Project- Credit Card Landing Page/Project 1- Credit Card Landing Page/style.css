@@ -5,10 +5,7 @@
 }
 
 body{
-    /* max-width: 1200px;
-    margin: auto; */
     font-family: 'Average Sans';
-    /* overflow-x: hidden; */
     font-size: 20px;
 }
 
@@ -37,7 +34,7 @@ nav ul{
     align-items: center;
     list-style-type: None;
     cursor: pointer;
-    gap: 60px;
+    gap: 50px;
 }
 nav .nav-right{
     display: flex;
@@ -69,9 +66,11 @@ main{
     color: white;
     padding-top: 40px;
     padding-bottom: 100px;
-    padding-left: 100px;
+}
+.main-container{
+    max-width: 1200px;
+    margin: auto;
     overflow: hidden;
-    /* height: 100vh; */
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -89,7 +88,7 @@ main .main-right{
     gap: 40px;
 }
 .main-left h1{
-    font-size: 6rem;
+    font-size: 5rem;
     letter-spacing: 1px;
     font-weight: 100;
 }
@@ -97,9 +96,9 @@ main .main-right{
     font-weight: bold;
 }
 .main-left > p{
-    color: gray;
+    color: rgb(225, 225, 225);
     width: 70%;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 .main-left .get-started-btn{
     margin-top: 40px;
@@ -128,13 +127,14 @@ main .main-right{
     margin-left: 20px;
     font-size: 22px;
 }
+
 .main-right img{
-    width: 60%;
+    width: 65%;
     position: absolute;
 }
 .main-right img:first-child{
     top: -80px;
-    right: 100px;
+    right: 50px;
 }
 .main-right img:last-child{
     top: -50px;
@@ -144,42 +144,50 @@ main .main-right{
 
 /******Logo section******/
 .logo-section{
+    background-color: rgb(52, 47, 47);
+    padding: 60px 0px;
+}
+.logo-container{
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 60px 40px;
-    background-color: rgb(52, 47, 47);
 }
 
 
 /* Second page */
-.second-section{
+.service-section{
     background-color: rgb(12, 12, 12);
     color: white;
-    padding: 100px;
+    padding: 100px 0px;
 }
-.second-section .services{
-    width: 100%;
+.service-container{
+    max-width: 1200px;
+    margin: auto;
+}
+.service-container .services{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.second-section .services .child1{
+.services .child1{
     width: 60%;
     font-size: 80px;
 }
-.second-section .services .child2{
+.services .child2{
     width: 40%;
     font-size: 25px;
+    color: rgb(225, 225, 225);
 }
-.second-section .service-cards{
+.service-cards{
     margin-top: 60px;
     height: 350px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.second-section .service-cards div{
+.service-cards div{
     border: 1px solid white;
     border-right: black;
     width: 350px;
@@ -187,31 +195,34 @@ main .main-right{
     text-align: center;
     
 }
-.second-section .service-cards .card1{
+.service-cards .card1{
     padding-top: 20px;
     font-size: 30px;
 }
-.second-section .service-cards .card2{
+.service-cards .card2{
     padding-top: 20px;
     font-size: 30px;
     align-self: flex-end;
     background: grey;
 }
-.second-section .service-cards .card3{
+.service-cards .card3{
     padding-top: 20px;
     font-size: 30px;
 }
 
 
 /* Third page */
-.third-section{
-    /* height: 160vh; */
-    padding: 80px 100px 0 80px;
+.card-choice-section{
+    padding: 80px 0px 0 0;
     background-color: rgb(253, 239, 244);
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+.choice-container{
+    max-width: 1200px;
+    margin: auto;
 }
 .card-choices div:first-child{
-    max-width: 60%;
+    max-width: 75%;
     margin: auto;
     font-size: 5rem;
     text-align: center;
@@ -220,49 +231,54 @@ main .main-right{
     font-weight: bold;
 }
 .card-choices div:last-child{
-    max-width: 50%;
+    max-width: 55%;
     margin: auto;
     padding-top: 50px;
     font-size: 20px;
     color: grey;
     text-align: center;
 }
-.third-section .vcard-div{
+.vcard-div{
     margin: auto;
 }
-.third-section .vcard-img{
+.vcard-img{
     position: relative;
-    top: -50px;
+    top: -35px;
     margin: auto;
     display: block;
-    width: 80%;
+    width: 85%;
 }
 
 
 /******Fourth Page******/
-.fourth-section{
+.feature-section{
     background-color: rgb(12, 12, 12);
     color: white;
-    padding: 80px 100px;
+    padding: 80px 0px;
+}
+.feature-container{
+    max-width: 1200px;
+    margin: auto;
 }
 .features div:first-child{
-    max-width: 80%;
-    margin: auto;
-    font-size: 5rem;
-    letter-spacing: 1px;
+    font-size: 5.5rem;
+    letter-spacing: 2px;
     text-align: center;
 }
+.features div span{
+    font-weight: bold;
+}
 .features div:last-child{
-    max-width: 50%;
+    max-width: 60%;
     margin: auto;
     font-size: 25px;
     text-align: center;
     letter-spacing: 1px;
     padding-top: 30px;
-    color: rgb(203, 203, 203);
+    color: rgb(225, 225, 225);
 }
 .features-card{
-    margin-top: 50px;
+    margin-top: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -270,7 +286,7 @@ main .main-right{
 .features-card div{
     border: 1px solid white;
     width: 500px;
-    height: 250px;
+    height: 230px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -307,12 +323,14 @@ main .main-right{
 
 
 /******Fifth page******/
-.fifth-section{
+.customize-section{
     background-color: rgb(12, 12, 12);
     color: white;
     padding: 100px 0;
 }
-.customing-card{
+.customize-container{
+    max-width: 1200px;
+    margin: auto;
     position: relative;
 }
 .rectangle-dark{
@@ -334,50 +352,52 @@ main .main-right{
     top: 0;
     right: 0;
 }
-.customing-card > p{
+.customize-container > p{
     position: absolute;
-    top:100px;
+    top:80px;
     left:0;
     right:0;
     max-width: 80%;
     margin: auto;
-    font-size: 5.5rem;
+    font-size: 5rem;
     letter-spacing: 2px;
     text-align: center;
+    line-height: 6rem;
 }
-.customing-card p span{
+.customize-container p span{
     color: black;
     font-weight: 500;
 }
-.customing-card .get-started{
+.customize-container .get-started{
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 150px;
+    bottom: 100px;
     left: 0;
     right: 0;
     font-size: 25px;
     font-weight: 500;
-    letter-spacing: 2px;
 }
-.customing-card .get-started p{
+.customize-container .get-started p{
     position: relative;
-    right: 30px;
+    right: 50px;
 }
-.customing-card .get-started img{
+.customize-container .get-started img{
     position: relative;
     right: 20px;
 }
 
 
 /******Footer Section******/
-.footer-section{
+footer{
     background-color: rgb(12, 12, 12);
     color: white;
     padding: 50px 100px 100px 100px;
 }
 .footer{
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
