@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    max-width: 1536px;
-    margin: auto;
     font-family: 'Average Sans';
     font-size: 20px;
 }
@@ -18,9 +16,11 @@ body{
 header{
     background-color: rgb(12, 12, 12);
     color: white;
+    padding: 40px 0px;
 }
 .navbar{
-    padding: 40px 100px;
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,10 +29,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 50px;
 }
 .navbar .nav-center ul li{
     list-style-type: none;
+    cursor: pointer;
 }
 .navbar .nav-right{
     background-color: #0c8bfd;
@@ -45,35 +46,58 @@ header{
 main{
     background-color: rgb(12, 12, 12);
     color: white;
-    padding: 40px 100px;
+    padding: 40px 0px;
+}
+.main-container{
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
 }
-main div{
-    width: 50%;
-}
-main div h1{
+.main-heading{
     font-size: 70px;
     letter-spacing: 4px;
 }
-main div p{
+.main-text{
+    width: 500px;
     padding-top: 30px;
-    letter-spacing: 1px;
-    color: rgb(210, 210, 210);
+    color: gray;
+    font-size: 22px;
 }
-main .hosting-info{
+.hosting-btn-area{
     margin-top: 50px;
-    display: flex;
-    gap: 50px;
 }
-main .get-started-btn{
+.get-started-btn{
     background-color: #0c8bfd;
     border-radius: 30px;
     text-align: center;
-    padding: 10px 20px;
+    padding: 13px 30px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
 }
-main .start-free-btn{
+.start-free-btn{
     border: 1px solid white;
+    background-color: black;
     border-radius: 30px;
     text-align: center;
+    padding: 13px 30px;
+    color: white;
+    font-size: 20px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+
+/* logo section */
+.logo-section{
+    background-color: #1d1c1c;
+}
+.logo-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
