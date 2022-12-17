@@ -1,5 +1,3 @@
-# Replicate the Following Output
+# Project2 Hosting Site Lading Page Live Netlify Link.
 
-`Assests are Provided!`
-
-![Project 2](./Hosting%20Landing%20Page.png)
+[Click Here](https://project1-credit-card.netlify.app/)

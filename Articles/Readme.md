@@ -12,5 +12,8 @@
 ## 4: What is Media Query and Grid in CSS:
 [Click Here](https://prithviraj.hashnode.dev/what-is-media-query-and-grid-in-css)
 
-## 5: What is Git and Github
+## 5: What is Git and Github:
 [Click Here](https://prithviraj.hashnode.dev/what-is-git-and-github)
+
+## Everthing about array in javascript:
+[Click Here](https://prithviraj.hashnode.dev/everything-about-array-in-javascript)

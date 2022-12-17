@@ -4,14 +4,18 @@
     box-sizing: border-box;
 }
 body{
-    /* max-width: 1536px;
-    margin: auto; */
+    max-width: 1536px;
+    margin: auto;
     font-family: 'Average Sans';
     font-size: 20px;
 }
+.blue{
+    color: #0c8bfd;
+}
 
-/* first section */
-.first-section{
+
+/* Header Navbar */
+header{
     background-color: rgb(12, 12, 12);
     color: white;
 }
@@ -36,33 +40,40 @@ body{
     border-radius: 30px;
 }
 
+
+/******First page main section******/
 main{
+    background-color: rgb(12, 12, 12);
+    color: white;
     padding: 40px 100px;
     display: flex;
     justify-content: space-between;
 }
-.blue{
-    color: #0c8bfd;
+main div{
+    width: 50%;
 }
 main div h1{
     font-size: 70px;
+    letter-spacing: 4px;
 }
 main div p{
     padding-top: 30px;
-    color: gray;
+    letter-spacing: 1px;
+    color: rgb(210, 210, 210);
 }
-main div div{
-    margin-top: 30px;
+main .hosting-info{
+    margin-top: 50px;
     display: flex;
     gap: 50px;
 }
-main div div div:first-child{
+main .get-started-btn{
     background-color: #0c8bfd;
-    padding: 15px 30px;
     border-radius: 30px;
+    text-align: center;
+    padding: 10px 20px;
 }
-main div div div:last-child{
+main .start-free-btn{
     border: 1px solid white;
-    padding: 15px 30px;
     border-radius: 30px;
+    text-align: center;
 }
