@@ -101,3 +101,126 @@ main{
     justify-content: space-evenly;
     align-items: center;
 }
+
+
+/* Service section */
+.service-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 0px;
+}
+.service-heading{
+    font-size: 4rem;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.service-text{
+    margin-top: 20px;
+    color: gray;
+    text-align: center;
+}
+.service-card{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.service-card div{
+    border: 2px solid gray;
+    padding: 25px 25px 45px 25px;
+    text-align: center;
+    border-radius: 35px;
+}
+.card1 h3{
+    margin-top: 30px;
+    font-size: 25px;
+}
+.card1 p{
+    margin-top: 20px;
+    color: gray;
+}
+.card2{
+    position: relative;
+    top: -30px;
+    background-color: black;
+}
+.card2 h3{
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+}
+.card2 p{
+    margin-top: 20px;
+    color: rgb(200, 200, 200);
+}
+.card3 h3{
+    margin-top: 30px;
+    font-size: 25px;
+}
+.card3 p{
+    margin-top: 20px;
+    color: gray;
+}
+
+
+/* Support section */
+.support-container{
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.support-heading{
+    font-size: 4.5rem;
+    letter-spacing: 2px;
+}
+
+.support-feature{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.support-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-basis: 700px;
+}
+.features-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 40px;
+    padding: 20px ;
+    font-weight:600;
+    font-size: 25px;
+}
+.features-left.active{
+    background-color: #0c8bfd;
+    color: white;
+}
+
+
+.support-right{
+    background-color: black;
+    color: white;
+    flex-basis: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 40px;
+    padding: 20px 10px;
+}
+.features-right{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 40px;
+    padding: 10px ;
+    gap: 10px;
+    background-color: #3e3e3e;
+}
