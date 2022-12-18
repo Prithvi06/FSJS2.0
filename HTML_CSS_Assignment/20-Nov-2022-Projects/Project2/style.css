@@ -12,10 +12,13 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 90vh;
-
+}
+.navbar-container{
+    background-color: black;
 }
 .navbar{
-    background-color: black;
+    max-width: 1536px;
+    margin: auto;
     display: flex;
     color: white;
     align-items: center;
@@ -45,6 +48,8 @@
     color: white;
     border: none;
 }
+
+
 .hero{
     display: grid;
     grid-template-columns: repeat(1, 1fr);

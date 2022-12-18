@@ -36,7 +36,9 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 85vh;
+    /* height: 85vh; */
+    margin-top: 100px;
+    position: relative;
 }
 
 main section {
@@ -53,7 +55,7 @@ main section {
 }
 
 .leftsection h1{
-    font-size: 70px;
+    font-size: 72px;
 }
 
 .leftsection p {
@@ -99,17 +101,16 @@ main section {
 }
 .greenbox{
     width: 31%;
-    bottom: 30px;
+    bottom: 0px;
 }
 .yellowbox{
     width: 27%;
-    bottom: 50px;
+    bottom: 30px;
     right: -20px;
 }
 
 .doctor{
     position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 90%;
+    right: -40px;
+    top: -150px;
 }

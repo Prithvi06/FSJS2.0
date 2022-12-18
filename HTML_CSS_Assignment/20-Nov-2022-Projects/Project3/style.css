@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-body{
+  .container{
     max-width: 1440px;
     margin: auto;
     overflow: hidden;
@@ -36,43 +36,42 @@ body{
     color: grey;
 }
 .hero-container{
-    /* display: grid;
-    grid-template-columns: 40% 60%; */
+   display: flex;
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 50px;
-    height: 85vh;
+    height: 500px;
+    position: relative;
     
 }
 .globe{
-    position: relative;
-    left: 250px;
-    bottom: 330px;
+    position: absolute;
+    left: 650px;
+    top: -40px;
 }
 .person{
     position: relative;
-    bottom: 350px;
+    right: 390px;
 }
 .square{
     position: relative;
-    top: 180px;
-    left: 80px;
+    top: 150px;
+    left: 100px;
 }
 .star1{
     position: absolute;
-    right: 180px;
-
+    right: 20px;
 }
 .star2{
     position: relative;
-    top: 100px;
+    top: 400px;
     left: 200px;
 }
 .hero-container-right{
     width: 700px;
     position: absolute;
-    bottom: 150px;
-    right: 160px;
+    bottom: 100px;
+    right: 0px;
     text-align: center;
 }
 
