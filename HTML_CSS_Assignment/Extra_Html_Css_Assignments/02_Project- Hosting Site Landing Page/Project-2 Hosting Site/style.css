@@ -91,7 +91,7 @@ main{
 
 /* logo section */
 .logo-section{
-    background-color: #1d1c1c;
+    background-color: rgb(12, 12, 12);;
 }
 .logo-container{
     max-width: 1200px;
@@ -391,4 +391,82 @@ main{
     border-radius: 20px;
     padding: 4px;
     background: linear-gradient(to right, #1c87c9 0%,#1c87c9 10%,rgb(232, 232, 232) 10%, rgb(232, 232, 232) 100%);
+}
+
+/* Signup section */
+.signup-section{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    padding: 80px 0px;
+}
+.signup-container{
+    max-width: 1200px;
+    margin: auto;
+}
+.signup-heading{
+    width: 90%;
+    margin: auto;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.signup-form{
+    margin-top: 50px;
+    background-color:#333333;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    gap: 30px;
+}
+.signup-form input{
+    background-color: #474747;
+    width: 27%;
+    border: none;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+}
+.signup-form input:focus{
+    outline: none;
+}
+.signup-btn{
+    background-color: #0c8bfd;
+    width: 15%;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+
+/* Footer section */
+.footer-section{
+    background-color: rgb(12, 12, 12);
+    color: rgb(220, 220, 220);
+}
+.footer-container{
+    max-width: 1200px;
+    margin: auto;
+}
+.footer-text{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    letter-spacing: 0.5px;
+}
+.footer-text h5{
+    color: white;
+    padding: 15px 0px;
+    letter-spacing: 1px;
+}
+.footer-hr{
+    border: none;
+    border-top: 1px solid rgb(220, 220, 220);;
+}
+.footer-logo{
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
