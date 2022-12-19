@@ -224,3 +224,171 @@ main{
     gap: 10px;
     background-color: #3e3e3e;
 }
+
+
+/* Hosting plan section */
+.hosting-plan-section{
+    background-color: rgb(12, 12, 12);
+    padding: 100px 0px;
+}
+.hosting-plan-container{
+    max-width: 1200px;
+    margin: auto;
+    color: white;
+}
+.hosting-plan-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 230px;
+}
+.plan-heading{
+    font-size: 4.5rem;
+    text-align: center;
+    letter-spacing: 2px;
+    align-self: flex-start;
+}
+.arrow-img{
+    align-self: flex-end;
+}
+.hosting-plans{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.regular-plan{
+    width: 33%;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px 25px;
+    border-radius: 30px;
+}
+.plan-title{
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+.plan-price{
+    margin-top: 15px;
+    font-size: 3rem;
+    letter-spacing: 1px;   
+}
+.plan-text{
+    margin-top: 10px;
+}
+.plan-price span{
+    font-size: 2rem;
+    color: gray;
+}
+.plan-features div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.plan-select-btn{
+    background-color: #0c8bfd;
+    margin-top: 25px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.plan-select-btn.standard{
+    background-color: whitesmoke;
+    color:#0c8bfd;
+}
+.standard-plan{
+    width: 33%;
+    background-color:#0c8bfd;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 30px;
+}
+.premium-plan{
+    width: 33%;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px 25px;
+    border-radius: 30px;
+}
+.plan-line{
+    margin: 20px 5px;
+    border: none;
+    border-top: 1px solid gray;
+}
+.plan-line.regular{
+    padding-bottom: 25px;
+}
+.plan-line.standard{
+    border: 1px solid rgb(125, 170, 255);
+}
+
+
+/* Testimonial section */
+.testimonial-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 0px;
+}
+.testimonial-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.testimonial-head h1{
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
+.testimonial-head p{
+    font-size: 1.5rem;
+    color: gray;
+}
+.testimonial-cards{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.testimonial-card1{
+    background-color: black;
+    color: rgb(220, 220, 220);
+    padding: 40px 30px;
+    border-radius: 25px;
+    flex-basis: 50%;
+}
+.author-name{
+    margin-top: 15px;
+    font-size: 18px;
+}
+.author-position{
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgb(202, 202, 202);
+}
+.feedback{
+    font-size: 1.5rem;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+.rating-star{
+    margin-top: 25px;
+}
+.testimonial-card2{
+    flex-basis: 50%;
+    border: 1px solid gray;
+    padding: 40px 30px;
+    border-radius: 25px;
+}
+.testimonial-scroll{
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 4px;
+    background: linear-gradient(to right, #1c87c9 0%,#1c87c9 10%,rgb(232, 232, 232) 10%, rgb(232, 232, 232) 100%);
+}
