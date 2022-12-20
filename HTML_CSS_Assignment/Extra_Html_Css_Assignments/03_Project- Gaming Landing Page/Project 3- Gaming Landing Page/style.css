@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+/* Home page */
+.home{
+    height: 100%;
+    width: 100%;
+    background: url("./Assets/Photos/futuristic-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+header{
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav-list li{
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+.sign-up{
+    background-color: #f4694c;
+    padding: 5px 20px;
+}
+
+.main-section{
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-left{
+    flex-basis: 50%;
+}
+.main-heading{
+    font-size: 3.5rem;
+}
+.main-text{
+    padding: 30px 0px;
+    letter-spacing: 1px;
+    color: gray;
+}
+.main-btn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.get-started-btn{
+    background-color: #f4694c;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+}
+.learn-more-btn{
+    border: 1px solid white;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+}
+.main-right{
+    align-self: flex-end;
+}
+.play-btn{
+    display: block;
+    margin: auto;
+}
+.main-right-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1.5rem;
+    position: relative;
+}
+.dash-img{
+    position: absolute;
+    top: 20px;
+    left: -60px;
+}
+.right-arrow-img{
+     align-self: flex-end;
+}
+
+
+/* Popular games seciton */
+.popular-games-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 0;
+}
+.popular-games-heading{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 3.7rem;
+}
+.popular-games-download{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.popular-games-download figure{
+    position: relative;
+}
+.game-caption{
+    /* background: rgba(255,255,255,0.5); */
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+    bottom: 8px;
+    color: white;
+}
+.game-action{
+    color: rgb(202, 202, 202);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.game-dwn-btn{
+    background-color: #f4694c;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+}
+.game-rating img{
+    width: 15px;
+}
+
+/* War game section */
+.war-game-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 100px 0;
+}
+.war-game-left{
+    flex: 50%;
+}
+.war-game-right{
+    flex: 50%;
+}
+.war-game-heading{
+    font-size: 3rem;
+}
+.war-game-text{
+    margin-top: 20px;
+}
+.war-game-btn{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.explore-btn{
+    
+}
