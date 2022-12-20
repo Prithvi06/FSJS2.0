@@ -185,7 +185,91 @@ nav{
     margin-top: 30px;
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 .explore-btn{
-    
+    background-color: #f4694c;
+    color: white;
+    padding: 15px 30px;
+}
+.learn-more-game-btn{
+    border: 2px solid #f4694c;
+    color: #f4694c;
+    padding: 14px 30px;
+}
+
+
+/* Recommended Game Section */
+.recommended-game-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0 150px 0;
+}
+.recommended-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recommended-heading{
+    flex-basis: 60%;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+.arrow-btns{
+    flex-basis: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.left-arrow{
+    background-color: #ffccc2;
+    padding: 20px;
+}
+.next-arrow{
+    background-color: #f4694c;
+    padding: 20px;
+}
+
+.recommended-games{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.game1{
+    display: flex;
+    flex-basis: 50%;
+    gap: 30px;
+}
+.about-game{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.about-game-heading{
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+.game-type{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f4694c;
+}
+.game-text{
+    color: gray;
+}
+.game2{
+    display: flex;
+    flex-basis: 50%;
+    gap: 30px;
+}
+.download-btn{
+    width: 150px;
+    border: none;
+    background-color: #f4694c;
+    padding: 15px 0;
+    color: white;
 }
