@@ -273,3 +273,130 @@ nav{
     padding: 15px 0;
     color: white;
 }
+
+
+/* Most played games section */
+.played-section{
+    background-color: black;
+}
+.played-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 0;
+}
+.played-heading{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}
+.played-games{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+}
+.played-games-left{
+    flex-basis: 40%;
+}
+.played-games-right{
+    flex-basis: 60%;
+    align-self: flex-end;
+}
+.played-text{
+    color: rgb(205, 205, 205);
+}
+.played-games-right div{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+.played-game-img3{
+    align-self: flex-end;
+}
+
+
+/* Game Experience Section */
+.experience-section{
+    background-color: black;
+}
+.experience-container{
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+}
+.experience-game-image{
+    opacity: 0.7;
+    height: 500px;
+    width: 100%;
+}
+.game-experience{
+    position: relative;
+    color: white;
+}
+.experience-heading{
+    opacity: 1.0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80px;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+.experience-text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 250px;
+    text-align: center;
+    color: rgb(205, 205, 205);
+}
+.ex-get-started-btn{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    margin: auto;
+    width: 150px;
+    padding: 15px 0;
+    background: #f4694c;
+    color: white;
+}
+
+/* Footer section */
+footer{
+    background-color: black;
+    padding: 100px 0;  
+}
+.footer-container{
+    max-width: 1200px;
+    margin: auto;
+    color: rgb(203, 203, 203);
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 30px;
+}
+.social-media-icon{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-info{
+    padding-top: 30px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-hr{
+    border: none;
+    border-top: 1px solid white;
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
