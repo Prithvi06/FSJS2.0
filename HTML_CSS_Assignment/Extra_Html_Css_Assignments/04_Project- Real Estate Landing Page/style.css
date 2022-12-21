@@ -90,7 +90,7 @@ nav{
 /* Estate section */
 .estate-section{
     background-color: whitesmoke;
-    padding: 200px 0 0 0;
+    padding: 200px 0 200px 0;
 }
 .estate-container{
     max-width: 1200px;
@@ -100,14 +100,127 @@ nav{
     font-size: 4rem;
     text-align: center;
 }
-.estate-cards{
+.estate-cards1, .estate-cards2, .estate-cards3{
+    margin-top: 50px;
     display: flex;
-    gap: 50px;
+    gap: 30px;
+    height: 500px;
 }
-figure{
-    overflow: hidden;
+.estate-cards2, .estate-cards3{
+    margin-top: 100px;
+}
+.estate-cards1 figure, .estate-cards2 figure, .estate-cards3 figure{
+    flex-basis: 30%;
+    height: 400px;
+    position: relative;
+}
+.card1 img, .card2 img, .card3 img,
+.card4 img, .card5 img, .card6 img,
+.card7 img, .card8 img, .card9 img{
+    object-fit:cover;
     border-radius: 20px;
 }
-.card1 img{
-    object-fit:cover;
+.card1 figcaption, .card2 figcaption, .card3 figcaption,
+.card4 figcaption, .card5 figcaption, .card6 figcaption,
+.card7 figcaption, .card8 figcaption, .card9 figcaption{
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+}
+.card-heading{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.card-text{
+    margin-top: 10px;
+    color: #6663e9;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.detain-btn{
+    background-color: #6663e9;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.card2{
+    align-self: center;
+}
+.card3{
+    align-self: flex-end;
+}
+.card4{
+    align-self: flex-end;
+}
+.card5{
+    align-self: center;
+}
+.card8{
+    align-self: center;
+}
+.card9{
+    align-self: flex-end;
+}
+
+
+/* Modern house section*/
+.modern-house{
+    background: whitesmoke;
+    padding: 100px 0;
+    /* height: 700px; */
+}
+.modern-house-container{
+    height: 500px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 100px;
+}
+.modern-house-left{
+    display: flex;
+    position: relative;
+    flex-basis: 50%;
+}
+.feature-image1-bg{
+    position: absolute;
+    left: -160px;
+}
+.feature-image1{
+    position: absolute;
+    top: -50px;
+    left:-25px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+.modern-house-right{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.modern-house-heading{
+    margin-top: 65px;
+    font-size: 3.6rem;
+    letter-spacing: 1px;
+    /* align-self: center; */
+}
+.early-bird-book-btn{
+    /* margin-top: 30px; */
+    background: #6663e9;
+    color: white;
+    width: 180px;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 20px;
 }
