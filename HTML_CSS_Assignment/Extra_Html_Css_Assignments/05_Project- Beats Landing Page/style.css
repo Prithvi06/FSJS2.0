@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background: black;
+    color: white;
+}
+
+
+/* main home and navbar section */
+.home{
+    padding: 60px 0;
+}
+.home-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    /* justify-content: center; */
+    gap: 100px;
+}
+.home-left{
+    display: flex;
+    gap: 50px;
+}
+.main-headphone-img{
+    position: relative;
+    top: -200px;
+}
+.home-right nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 130px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.shop-btn{
+    background-color: rgb(52, 52, 52);
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 150px;
+    padding: 10px 0;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.on-ear-div{
+    margin-top: 30px;
+}
+.on-ear-img{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+.beats-heading{
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.beats-overview{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;   
+}
+.beats-text{
+    margin-top: 20px;
+    letter-spacing: 1px;   
+    line-height: 1.8rem;
+}
+.add-to-bag{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(52, 52, 52);
+    width: 250px;
+    padding: 15px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.model-name{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.social-apps{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+
+/* Specifications section */
+.specs-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 300px;
+}
+.specs-logo{
+    display: block;
+    margin: auto;
+}
+.product-specification{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.specs-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-basis: 25%;
+}
+.bluetooth{
+    align-self: center;
+}
+.specs-name{
+    font-weight: bold;
+}
+.specs-type{
+    padding-top: 5px;
+    font-size: 0.7rem;
+    color: whitesmoke;
+}
+.mic{
+    align-self: flex-end;
+}
