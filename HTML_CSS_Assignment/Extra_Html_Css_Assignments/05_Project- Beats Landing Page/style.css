@@ -139,3 +139,185 @@ nav ul{
 .mic{
     align-self: flex-end;
 }
+
+/* Case section */
+.case-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 300px;
+}
+.case-logo{
+    display: block;
+    margin: auto;
+}
+.case-specification{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.case-text{
+    color: whitesmoke;
+    line-height: 1.7rem;
+}
+.more-info{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(52, 52, 52);
+    width: 150px;
+    gap: 10px;
+    padding: 10px 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* Product buy section */
+.buy-section{
+    background: rgb(40, 40, 40);
+}
+.buy-container{
+    padding: 50px 0;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.buy-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.buy-left h2{
+    font-size: 2rem;
+}
+.buy-btn{
+    background: black;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 15px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+
+/* Product section */
+.product-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 200px;
+}
+.style-img{
+    display: block;
+    margin: auto;
+    height: 200px;
+}
+.products{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1;
+    justify-items: center;
+    row-gap: 100px;  
+}
+.product{
+    background: rgb(40, 40, 40);
+    width: 200px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    border-radius: 15px;
+}
+.product-image{
+    position: relative;
+    display: block;
+    margin: auto;
+    top: -50px;
+}
+.product-heading{
+    position: relative;
+    top: -30px;
+}
+.product-version{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: -30px;
+}
+.version{
+    color: gray;
+    font-weight: bold;
+}
+.shop-bag{
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* Footer section */
+.footer-container{
+    padding: 100px 0 100px 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-list h3{
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+.footer-list ul{
+    list-style-type: none;
+    color: gray;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.footer-form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-subscribe-form{
+    display: flex;
+    background: rgb(40, 40, 40);
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+}
+.footer-subscribe-form input{
+    background: rgb(40, 40, 40);
+    border: none;
+    color: white;
+}
+.footer-subscribe-form input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.footer-subscribe-form input::placeholder{
+    font-size: 1.1rem;
+}
+.footer-subscribe-btn{
+    display: flex;
+    background: black;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.footer-social-media{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.footer-arrow{
+    align-self: flex-end;
+}

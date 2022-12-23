@@ -1,5 +1,3 @@
-# Replicate the Following Output
+# Project4 Gaming Lading Page Live Netlify Link.
 
-`Assests are Provided!`
-
-![Project 5](./Main%20Landing%20page.png)
+[Click Here](https://project5-beats-landing-page.netlify.app/)
