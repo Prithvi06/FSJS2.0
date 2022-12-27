@@ -1,5 +1,3 @@
-# Replicate the Following Output
+# Project5 Data Analytics Lading Page Live Netlify Link.
 
-`Assests are Provided!`
-
-![Project 6](./Data%20Analytics%20Landing%20page.png)
+[Click Here](https://project5-beats-landing-page.netlify.app/)

@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    color: black;
+}
+
+/* Home and Navbar Section */
+.home{
+    height: 900px;
+    background: linear-gradient(175deg, white, rgb(215, 239, 254) 80%, white 80% 100%);
+}
+header{
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.nav-list ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+.nav-free-trial-btn{
+    border: 1px solid #722ed1;
+    /* height: 50px; */
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #722ed1;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.main-left{
+    flex-basis: 50%;
+}
+.main-right{
+    flex-basis: 50%;
+}
+.version{
+    width: 300px;
+    background: #f4ebff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #722ed1;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+.main-heading{
+    margin-top: 30px;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.main-text{
+    margin-top: 20px;
+    color: gray;
+    font-size: 1.2rem;
+
+}
+.main-btn{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.main-free-trial-btn{
+    background-color: #722ed1;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.main-learn-more-btn{
+    background-color: white;
+    border: 1px solid #722ed1;
+    color: #722ed1;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+/* Big data Insights section */
+.big-data-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0;
+}
+.qubly{
+    width: 180px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f4ebff;
+    font-weight: bold;
+    color:#722ed1;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.big-data-heading{
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.big-data-text{
+    padding-top: 30px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: gray;
+}
+.big-data-advantage{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 30px;
+}
+.advantage-heading{
+    padding: 10px 0 15px 0;
+}
+.advantage-text{
+    color: gray;
+}
+
+/* Launch best stack section */
+.best-stack-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.best-stack-container div{
+    flex-basis: 50%;
+}
+.product-team-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #f4ebff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 230px;
+    cursor: pointer;
+}
+.best-stack-heading{
+    padding: 20px 0;
+}
+.best-stack-text{
+    width: 80%;
+    color: gray;
+}
+
+/* DAta-driven pipeline section */
+.data-driven-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.data-driven-container div{
+    flex-basis: 50%;
+}
+.engineer-team-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #f4ebff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 265px;
+    cursor: pointer;
+}
+.data-driven-heading{
+    padding: 20px 0;
+    font-size: 2rem;
+    font-weight: 1000px;
+}
+.data-driven-text{
+    color: gray;
+}
+
+
+/* sullivan-analytics-section */
+.sullivan-analytics-section{
+    /* background: linear-gradient(320deg, red 30%, transparent 30%), linear-gradient(270deg, transparent 58%, yellow 58%); */
+}
+.sullivan-analytics-container{
+    max-width: 1200px;
+    padding: 50px 0 30px 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+.sullivan-analytics-hr{
+    border: none;
+    border-top: 3px solid #f4ebff;
+    width: 100%;
+}
+.sullivan-analytics-heading{
+    width: 80%;
+    margin: auto;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+.sullivan-analytics-name{
+    font-weight: bold;
+}
+.logo{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+
+/* signup section */
+.signup-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.signup-container div{
+    flex-basis: 50%;
+}
+.trusted-div{
+    display: flex;
+    align-items: center;
+}
+.trusted-hr{
+    width: 100%;
+}
