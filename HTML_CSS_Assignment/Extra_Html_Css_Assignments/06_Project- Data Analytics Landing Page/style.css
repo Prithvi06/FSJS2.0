@@ -270,14 +270,97 @@ nav{
     padding: 100px 0;
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 .signup-container div{
     flex-basis: 50%;
 }
 .trusted-div{
+    padding: 50px 0 30px 0;
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 .trusted-hr{
-    width: 100%;
+    width: 35%;
+    border: none;
+    border-top: 2px solid #f4ebff;
+}
+.signup-left-heading{
+    font-size: 2.5rem;
+}
+.trusted-logo{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding: 50px 0;
+}
+/* signup right */
+.sign-bg{
+    background-color: #f4ebff;
+    position: relative;
+}
+.signup-main{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    /* position: absolute;
+    left: auto;
+    right: auto; */
+}
+.signup-right-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.start-free-trial{
+    background-color: #722ed1;
+    color: white;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.signup-input{
+    text-align: center;
+    margin-top: 20px;
+}
+.signup-input input{
+    height: 40px;
+    padding: 5px;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+.signup-or{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.signup-google{
+    text-align: center;
+    padding: 10px 0;
+}
+.signup-hr{
+    width: 80%;
+    margin: auto;
+    border: none;
+    border-top: 3px solid #f4ebff;
+}
+.already-account{
+    padding: 10px;
+    text-align: center;
+}
+.login{
+    color: #722ed1;
+    font-weight: bold;
 }
