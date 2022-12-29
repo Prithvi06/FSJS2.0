@@ -12,3 +12,6 @@
 
 **Assignments of Vscode Clone** =
 [Click Here](./HTML_CSS_Assignment/Vscode_Clone/Readme.md)
+
+**Extra HTML and CSS Projects** =
+[Click Here](./HTML_CSS_Assignment/Extra_Html_Css_Assignments/Readme.md)

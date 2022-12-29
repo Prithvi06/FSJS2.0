@@ -1,4 +1,4 @@
 # Work Flow of this project
 
-**Generated Output Image**
-![Output](./assets/project1_output.png)
+**Generated Output Image Live Netlify link**
+![Output](https://project1-css-html.netlify.app/)
