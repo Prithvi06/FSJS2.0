@@ -114,11 +114,17 @@ nav{
     height: 400px;
     position: relative;
 }
+
+figure img:hover{
+    transform: rotateY(180deg);
+    transition: all 2s ease;
+}
 .card1 img, .card2 img, .card3 img,
 .card4 img, .card5 img, .card6 img,
 .card7 img, .card8 img, .card9 img{
     object-fit:cover;
     border-radius: 20px;
+    transition: all 2s ease;
 }
 .card1 figcaption, .card2 figcaption, .card3 figcaption,
 .card4 figcaption, .card5 figcaption, .card6 figcaption,
