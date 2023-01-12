@@ -17,3 +17,6 @@
 
 ## 6: Everthing about array in javascript:
 [Click Here](https://prithviraj.hashnode.dev/everything-about-array-in-javascript)
+
+## 6: Everthing about array in javascript:
+[Click Here](https://prithviraj.hashnode.dev/what-is-prototype-and-prototype-chaining-in-javascript)
