@@ -15,3 +15,8 @@
 
 **Extra HTML and CSS Projects** =
 [Click Here](./HTML_CSS_Assignment/Extra_Html_Css_Assignments/Readme.md)
+
+
+
+**JavaScript Assignments** =
+[Click Here](./JavaScript/readme.md)
