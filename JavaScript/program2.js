@@ -1,3 +1,4 @@
+const prompt=require("prompt-sync")({sigint:true});
 function displayData(infoData){
     for (var info in infoData){
         console.log(infoData[info])
