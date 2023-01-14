@@ -19,4 +19,4 @@
 
 
 **JavaScript Assignments** =
-[Click Here](./JavaScript/readme.md)
+[Click Here](./JavaScript)
