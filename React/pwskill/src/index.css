@@ -1,0 +1,14 @@
+.logo-image{
+    width: 150px;
+}
+.btn-login{
+    background-color: #5a4bda;
+    text-align: center;
+    padding: 5px 30px;
+    color:  white;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
