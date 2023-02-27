@@ -12,3 +12,72 @@
     font-size: 1.1rem;
     font-weight: 500;
 }
+.nav-item{
+    padding: 0 33px;
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 600;
+}
+
+/* main section */
+.home-image{
+    height: 100%;
+     width: 100%; 
+}
+.hardwork-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #5a4bda;
+    padding: 45px 0;
+}
+.cart-image{
+    width: 200px;
+}
+.cart-info{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.cart-para{
+    font-size: 2rem;
+    font-weight: 600;
+    color: gray;
+}
+
+/* Achiever section */
+.our-achiever{
+    background-color: #eaecef;
+}
+.achiever-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #5a4bda;
+    padding: 45px 0;
+}
+
+@media screen and (max-width:992px){
+    .hardwork-heading{
+        font-size: 2rem;
+        font-weight: 700;
+        color: #5a4bda;
+        padding: 40px 0;
+    }
+    .cart-image{
+        width: 100px;
+    }
+    .cart-info{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .cart-para{
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: gray;
+    }
+
+    .achiever-heading{
+        font-size: 2rem;
+        font-weight: 700;
+        color: #5a4bda;
+        padding: 40px 0;
+    }
+}
