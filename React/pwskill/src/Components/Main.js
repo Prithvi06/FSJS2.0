@@ -50,23 +50,23 @@ function Main(){
                 </div>
                
                 <div className="row">
-                    <div className="col" >
-                        <img src={shubhkey} alt="shubhkey" />
+                    <div className="col-xl-2 col-md-4 col-sm-6">
+                        <img src={shubhkey} alt="shubhkey" className="achiever-img" />
                     </div>
-                    <div className="col">
-                    <img src={wissen}  alt="wissen" />
+                    <div className="col-xl-2 col-md-4 col-sm-6">
+                        <img src={wissen}  alt="wissen" className="achiever-img"  />
                     </div>
-                    <div className="col">
-                    <img src={zensar} alt="zensar"/>
+                    <div className="col-xl-2  col-md-4 col-sm-6">
+                        <img src={zensar} alt="zensar" className="achiever-img" />
                     </div>
-                    <div className="col">
-                        <img src={shubhkey} alt="shubhkey" />
+                    <div className="col-xl-2 col-md-4 col-sm-6">
+                        <img src={shubhkey} alt="shubhkey" className="achiever-img"  />
                     </div>
-                    <div className="col">
-                    <img src={wissen} alt="wissen" />
+                    <div className="col-xl-2  col-md-4 col-sm-6">
+                        <img src={wissen} alt="wissen" className="achiever-img"  />
                     </div>
-                    <div className="col">
-                    <img src={zensar} alt="zensar"/>
+                    <div className="col-xl-2 col-md-4 col-sm-6">
+                        <img src={zensar} alt="zensar" className="achiever-img" />
                     </div>
                 </div>
             </div>
