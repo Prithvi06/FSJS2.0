@@ -5,7 +5,7 @@ import credit from '../credit-card-icon.svg'
 import student from '../student-icon.svg'
 import shubhkey from '../shubhkey.png'
 import wissen from '../wissen.png'
-import zensar from '../zensar.png'
+import informatica from '../informatica.png'
 
 
 function Main(){
@@ -50,23 +50,23 @@ function Main(){
                 </div>
                
                 <div className="row">
-                    <div className="col-xl-2 col-md-4 col-sm-6">
+                    <div className="col-xl-2 col-md-4 col-sm-6 mt-2">
                         <img src={shubhkey} alt="shubhkey" className="achiever-img" />
                     </div>
-                    <div className="col-xl-2 col-md-4 col-sm-6">
+                    <div className="col-xl-2 col-md-4 col-sm-6 mt-2">
                         <img src={wissen}  alt="wissen" className="achiever-img"  />
                     </div>
-                    <div className="col-xl-2  col-md-4 col-sm-6">
-                        <img src={zensar} alt="zensar" className="achiever-img" />
+                    <div className="col-xl-2  col-md-4 col-sm-6 mt-2">
+                        <img src={informatica} alt="informatica" className="achiever-img" />
                     </div>
-                    <div className="col-xl-2 col-md-4 col-sm-6">
+                    <div className="col-xl-2 col-md-4 col-sm-6 mt-2">
                         <img src={shubhkey} alt="shubhkey" className="achiever-img"  />
                     </div>
-                    <div className="col-xl-2  col-md-4 col-sm-6">
+                    <div className="col-xl-2  col-md-4 col-sm-6 mt-2">
                         <img src={wissen} alt="wissen" className="achiever-img"  />
                     </div>
-                    <div className="col-xl-2 col-md-4 col-sm-6">
-                        <img src={zensar} alt="zensar" className="achiever-img" />
+                    <div className="col-xl-2 col-md-4 col-sm-6 mt-2">
+                        <img src={informatica} alt="informatica" className="achiever-img" />
                     </div>
                 </div>
             </div>
