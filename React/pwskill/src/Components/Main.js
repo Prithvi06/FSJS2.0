@@ -6,6 +6,18 @@ import student from '../student-icon.svg'
 import shubhkey from '../shubhkey.png'
 import wissen from '../wissen.png'
 import informatica from '../informatica.png'
+import fame from '../fame.jpg'
+import Fame  from "./Fame";
+import Program from "./Program"
+import popularImage from '../popular.jpg'
+import affordableImage from '../affordable.jpg'
+import communityImage from '../community.jpg'
+import neurolab from '../neurolab-icon.svg'
+import jobportal from '../jobPortal-icon.svg'
+import internship from '../Internship-icon.svg'
+// import affiliate from '../affilitatePortal-icon.svg'
+// import halloffame from '../halloffame-icon.svg'
+import Product from './Product'
 
 
 function Main(){
@@ -70,6 +82,62 @@ function Main(){
                     </div>
                 </div>
             </div>
+            </section>
+
+            <section className="hall-of-fame">
+                <div className="container">
+                <div className="row">
+                    <div className="col text-center">
+                        <h1 className="fame-heading">Hall Of fame</h1>
+                    </div>
+                </div>
+                <div className="row text-center gx-5">
+                    <Fame fame={fame}/>
+                    <Fame fame={fame}/>
+                    <Fame fame={fame}/>
+                </div>
+                </div>=
+            </section>
+
+            <section className="program">
+                <div className="container">
+                    <Program Image={popularImage} programHeading={'Popular Programs'} programDialog="Most in demand and watched by people." />
+                </div>
+            </section>
+
+            <section className="program">
+                <div className="container">
+                    <Program Image={affordableImage} programHeading={'Affordable Programs'} programDialog="Find your favourite courses in pocket-friendly ways." />
+                </div>
+            </section>
+
+            <section className="program">
+                <div className="container">
+                    <Program Image={communityImage}  programHeading={'Community Programs'} programDialog="Open to all pro-live classes on Youtube for free." />
+                </div>
+            </section>
+
+            <section className="product-section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col">
+                            <h1 className="text-center product-heading fw-bold">Our Products</h1>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <Product image={neurolab} productName={"PW Skill Lab"}
+                        productInfo={"Supercharge your project development with our robust lab."}/>
+                        <Product image={jobportal} productName={"Job Portal"}
+                            productInfo={"Use exceptional templates for a stand-out resume minus the sign up process."}
+                        />
+                        <Product image={internship} productName={"Experience Portal"}
+                            productInfo={"PW Skills's self-paced experience portal prioritises hands-on training with 570+ internship projects."}
+                        />
+                    </div>
+                    <div className="row">
+
+                    </div>
+                </div>
             </section>
         </main>
         </>

@@ -60,6 +60,48 @@
 }
 
 
+/* Fame section */
+.hall-of-fame{
+    padding: 80px 0;
+}
+.fame-heading{
+    padding: 0 0 50px 0;
+    color: #5a4bda;
+    font-size: 3rem;
+    font-family: 700;
+}
+.fame-image{
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+}
+
+/* Program section */
+.program{
+    padding: 60px 0;
+}
+.program-heading{
+    color: #5a4bda;
+    font-size: 3rem;
+    font-family: 800;
+}
+.programcart-image{
+    width: 100%;
+}
+.course-heading{
+    color: #5a4bda;
+}
+
+
+/* product-section */
+.product-section{
+    padding: 60px 0;
+}
+.product-heading{
+    color: #5a4bda;
+    font-size: 3.5rem;
+}
+
 @media screen and (max-width:992px){
     .hardwork-heading{
         font-size: 2rem;
