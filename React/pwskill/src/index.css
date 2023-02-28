@@ -101,6 +101,12 @@
     color: #5a4bda;
     font-size: 3.5rem;
 }
+.product-image{
+    width: 300px;
+}
+
+
+
 
 @media screen and (max-width:992px){
     .hardwork-heading{

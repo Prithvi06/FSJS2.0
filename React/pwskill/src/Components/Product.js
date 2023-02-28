@@ -6,8 +6,8 @@ function Product(props){
         <div className="col-lg-4 mt-4">
             <div className="p-3 product-cart text-center">
                 <img src={props.image} alt="productImage" className="product-image mt-4"></img>
-                <h5 className="product-name mt-3">{props.productName}</h5>
-                <p className="product-info pt-3">
+                <h4 className="product-name mt-3 fw-bold">{props.productName}</h4>
+                <p className="product-info pt-3 text-secondary fs-5">
                 {props.productInfo}
                 </p>
             </div>
