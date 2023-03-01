@@ -101,11 +101,18 @@
     color: #5a4bda;
     font-size: 3.5rem;
 }
+
 .product-image{
-    width: 300px;
+    height: 200px;
 }
-
-
+/* Footer section */
+.footer{
+    padding: 60px 0;
+}
+.line{
+    color: #f7a654;
+    background-color: #f7a654;;
+}
 
 
 @media screen and (max-width:992px){
