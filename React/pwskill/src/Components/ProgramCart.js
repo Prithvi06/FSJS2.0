@@ -1,7 +1,6 @@
 import React from "react";
 
 function ProgramCart(props){
-    console.log(props)
     return(
         <div className="col-lg-4 mt-4">
             <div className="p-4 rounded-4 shadow">
@@ -10,7 +9,7 @@ function ProgramCart(props){
                 <p className="fw-semibold .text-body-secondary mt-5 fs-6">
                     {props.mentor}
                 </p>
-                <p className="fw-bold"><i class="fa-sharp fa-solid fa-indian-rupee-sign"></i> {props.price}</p>
+                <p className="fw-bold"><i className="fa-sharp fa-solid fa-indian-rupee-sign"></i> {props.price}</p>
             </div>
         </div>
     )
