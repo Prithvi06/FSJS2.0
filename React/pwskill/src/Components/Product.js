@@ -1,9 +1,8 @@
 import React from "react";
 
 function Product(props){
-    console.log(props)
     return(
-        <div className="col-lg-4 mt-4">
+        <div className="col mt-4">
             <div className="p-3 product-cart text-center">
                 <img src={props.image} alt="productImage" className="product-image mt-4"></img>
                 <h4 className="product-name mt-3 fw-bold">{props.productName}</h4>

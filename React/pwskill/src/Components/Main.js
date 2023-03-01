@@ -1,22 +1,22 @@
 import React from "react";
-import home from '../home.jpg'
-import books from '../books-icon.svg'
-import credit from '../credit-card-icon.svg'
-import student from '../student-icon.svg'
-import shubhkey from '../shubhkey.png'
-import wissen from '../wissen.png'
-import informatica from '../informatica.png'
-import fame from '../fame.jpg'
+import home from '../assets/home.jpg'
+import books from '../assets/books-icon.svg'
+import credit from '../assets/credit-card-icon.svg'
+import student from '../assets/student-icon.svg'
+import shubhkey from '../assets/shubhkey.png'
+import wissen from '../assets/wissen.png'
+import informatica from '../assets/informatica.png'
+import fame from '../assets/fame.jpg'
 import Fame  from "./Fame";
 import Program from "./Program"
-import popularImage from '../popular.jpg'
-import affordableImage from '../affordable.jpg'
-import communityImage from '../community.jpg'
-import neurolab from '../neurolab-icon.svg'
-import jobportal from '../jobPortal-icon.svg'
-import internship from '../Internship-icon.svg'
-// import affiliate from '../affilitatePortal-icon.svg'
-// import halloffame from '../halloffame-icon.svg'
+import popularImage from '../assets/popular.jpg'
+import affordableImage from '../assets/affordable.jpg'
+import communityImage from '../assets/community.jpg'
+import neurolab from '../assets/neurolab-icon.svg'
+import jobportal from '../assets/jobPortal-icon.svg'
+import internship from '../assets/Internship-icon.svg'
+import affilitate from '../assets/affilitatePortal-icon.svg'
+import halloffame from '../assets/halloffame-icon.svg'
 import Product from './Product'
 
 
@@ -135,7 +135,11 @@ function Main(){
                         />
                     </div>
                     <div className="row">
-
+                        <Product image={affilitate} productName={"Become an affiliate"}
+                        productInfo={"Explore affiliate marketing opportunities with PW Skills and attain financial freedom."}/>
+                        <Product image={halloffame} productName={"Hall of fame"}
+                            productInfo={"Our student placements and 100K+ career transitions speak volumes about our courses."}
+                        />
                     </div>
                 </div>
             </section>
