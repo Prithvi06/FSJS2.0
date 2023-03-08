@@ -1,11 +1,11 @@
 import React from "react";
-
+import homeImage from "./home.jpg"
 function Home(){
     return(
         <>
-            <p>
-                Home
-            </p>
+            <div className="home">
+                <img src={homeImage} alt="homeimage"></img>
+            </div>
         </>
     )
 }

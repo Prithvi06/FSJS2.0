@@ -1,11 +1,12 @@
 import React from "react";
+import aboutImage from "./about.jpg"
 
 function About(){
     return(
         <>
-            <p>
-                About
-            </p>
+            <div className="home">
+                <img src={aboutImage} alt="aboutimage"></img>
+            </div>
         </>
     )
 }
