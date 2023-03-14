@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import Todos from './components/AddTask';
+import Todos from './components/Todos';
 import { addTodo } from './feature/todoSlice';
-import { Dispatch } from 'react';
+import { useSelector, useDispatch } from 'react-redux'
 
 function App() {
 
   const [todo, setTodo] = useState({})
-  const dispatch = Dispatch()
+  const dispatch = useDispatch()
   const updateState = (e) => {
     setTodo(
       {
@@ -17,14 +17,31 @@ function App() {
   }
   const submit = (e) => {
     e.preventDefault()
-    dispatch(addTodo(todo))
-    console.log(todo)
+    if (todo.heading){
+
+      dispatch(addTodo(todo))
+      console.log(todo)
+    }
   }
+  const todos = useSelector((state) => state.todo.todos)
 
   return (
     <div className="App">
       <h1>TODO</h1>
-      <Todos></Todos>
+
+      <>
+        {
+            todos.map((todo) => (
+                <Todos key={todo.id} 
+                heading={todo.heading} 
+                description={todo.description}
+                id={todo.id}
+                />
+              
+          ))
+        }
+      </>
+
       <div>
         <form onSubmit={submit}>
           <label>Heading</label>
