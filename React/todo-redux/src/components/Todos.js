@@ -13,9 +13,9 @@ function Todos(props){
     if (props.id){
     return(
         <div className="taskCart">
-          <h5>{props.heading}</h5>
+          <b>{props.heading}</b>
           <p>{props.description}</p>
-          <button onClick={() => {remove(props.id)}} className="remove">Remove</button> 
+          <button onClick={() => {remove(props.id)}} className="remove">X</button> 
         </div>
     )}
     else{

@@ -42,13 +42,17 @@ function App() {
         }
       </>
 
-      <div>
+      <div className='form-div border p-2'>
         <form onSubmit={submit}>
-          <label>Heading</label>
-          <input type='text' id='heading' name='heading' placeholder='heading' onChange={updateState}></input>
-          <label>Description</label>
-          <input type='text' id='description' name='description' placeholder='description' onChange={updateState}></input>
-          <button type='submit'>Add Task</button>
+          <div>
+            <label className='block mb-2 text-sm font-medium text-gray-900'>Heading</label>
+            <input type='text' className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg p-2' id='heading' name='heading' placeholder='heading' onChange={updateState}></input>
+          </div>
+          <div>
+            <label className='block mb-2 text-sm font-medium text-gray-900'>Description</label>
+            <input type='text' className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg p-2' id='description' name='description' placeholder='description' onChange={updateState}></input>
+          </div>
+          <button className='border rounded-lg bg-green-500 p-2 text-sm mt-2' type='submit'>Add Task</button>
         </form>
       </div>
     </div>
