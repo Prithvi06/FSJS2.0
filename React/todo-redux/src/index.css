@@ -2,20 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  background-image: url(./assets/bgImage.jpeg);
+
+}
 
 #root{
   max-width: 1200px;
   margin: auto;
   padding: 50px 0;
-}
-.form-div{
-  
-}
-
-.taskCart{
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4);
-}
-.remove{
-  background-color: red;
 }
