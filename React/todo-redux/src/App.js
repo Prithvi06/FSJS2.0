@@ -3,6 +3,8 @@ import ListTodos from './components/ListTodos';
 import { addTodo, editTodo, removeAllTodo } from './feature/todoSlice';
 import { useSelector, useDispatch } from 'react-redux'
 import toast, { Toaster } from 'react-hot-toast';
+import InProgressTodo from './components/InProgressTodo';
+// import CompletedTodo from './components/CompletedTodo';
 
 function App() {
   const [openForm, setopenForm] = useState(false)
@@ -14,7 +16,7 @@ function App() {
   const [todokey, setTodoKey] = useState()
   const addToast = () => toast.success('Task add successfully');
   const updateToast = () => toast('Task update successfully');
-  const removeToast = () => toast('Task remove successfully');
+  // const removeToast = () => toast('Task remove successfully');
 
   const dispatch = useDispatch()
   const updateState = (e) => {
@@ -106,7 +108,6 @@ function App() {
                 <button className='border rounded-full px-2 py-1 text-sm mt-2 backdrop-blur-sm bg-white/30 hover:bg-blue-600 hover:text-white' onClick={submit}>Cancel</button>
                 <Toaster
                   position="top-center"
-                  reverseOrder={false}
                 />
                 </div>
               </form>
@@ -114,16 +115,10 @@ function App() {
           )
           }
         </div>
-        <div className='mt-2 p-2 basis-1/4 tasks  backdrop-blur-sm bg-white/30 rounded-md'>
-          <h3 className='font-bold'>In-progress
-          <span className="text-rose-700 float-right cursor-pointer hover:text-rose-900" onClick={()=>{dispatch(removeAllTodo())}}> <i className="fa-solid fa-trash"></i></span></h3>
-          <button className='text-white w-[100%] mt-3 hover:text-indigo-800'><b>+</b> Add Task</button>
-        </div>
-        <div className='mt-2 p-2 basis-1/4 tasks backdrop-blur-sm bg-white/30 rounded-md'>
-          <h3 className='font-bold'>Completed
-          <span className="text-rose-700 float-right cursor-pointer hover:text-rose-900" onClick={()=>{dispatch(removeAllTodo())}}> <i className="fa-solid fa-trash"></i></span></h3>
-          <button className='text-white w-[100%] mt-3 hover:text-indigo-800'><b>+</b> Add Task</button>
-        </div>
+          
+        <InProgressTodo />
+        {/* <CompletedTodo /> */}
+        
       </main>
     </div>
   )
