@@ -14,7 +14,7 @@ function App() {
   const [todokey, setTodoKey] = useState()
   const addToast = () => toast.success('Task add successfully');
   const updateToast = () => toast('Task update successfully');
-  const removeToast = () => toast('Task remove successfully');
+//   const removeToast = () => toast('Task remove successfully');
 
   const dispatch = useDispatch()
   const updateState = (e) => {
