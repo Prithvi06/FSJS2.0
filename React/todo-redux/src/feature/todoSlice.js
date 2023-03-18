@@ -3,7 +3,8 @@ import { nanoid } from '@reduxjs/toolkit'
 
 
 const initialState = {
-    todos: []
+    todos: [],
+    inProgressTodo: []
 }
 
 export const todoSlice = createSlice({
@@ -28,9 +29,26 @@ export const todoSlice = createSlice({
         },
         removeAllTodo: (state, action) => {
             state.todos = []
+        },
+        addInprogressTodo: (state, action) => {
+            const todo = {
+                id: nanoid(),
+                heading: action.payload.heading,
+                description: action.payload.description
+            }
+            state.inProgressTodo.push(todo)
+        },
+        removeInProgressTodo: (state, action) => {
+            state.inProgressTodo = state.inProgressTodo.filter((todo) => todo.id !== action.payload)
+        },
+        editInProgressTodo: (state, action) => {
+            state.inProgressTodo = state.inProgressTodo.map((todo) => {
+                return todo.id === action.payload.id ? {...todo, heading:action.payload.heading,
+                description:action.payload.description} : todo
+            })
         }
     },
 })
 
-export const { addTodo, removeTodo, editTodo, removeAllTodo } = todoSlice.actions
+export const { addTodo, removeTodo, editTodo, removeAllTodo, addInprogressTodo, removeInProgressTodo, editInProgressTodo } = todoSlice.actions
 export default todoSlice.reducer
