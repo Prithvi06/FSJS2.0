@@ -22,7 +22,8 @@ function ListTodos(props){
         "id": id,
         "heading": props.heading,
         "description": props.description
-    }))
+      }))
+      dispatch(removeTodo(id))
     }
 
     if (props.id){
@@ -34,7 +35,7 @@ function ListTodos(props){
               <span className="text-blue-500  cursor-pointer hover:text-blue-700" onClick={() => {updateTodo(props.id, props.heading, props.description)}}> <i className="fa-solid fa-pen"></i> </span>
               <span className="text-rose-500 float-right cursor-pointer hover:text-rose-700" onClick={() => {remove(props.id)}}> <i className="fa-solid fa-trash"></i></span>
               <span className="text-blue-500  cursor-pointer hover:text-blue-700" 
-              onClick={() => {movetoInprogressTodo(props.id, props.heading, props.description)}}> <i class="fa-solid fa-share"></i> </span>
+              onClick={() => {movetoInprogressTodo(props.id, props.heading, props.description)}}> <i className="fa-solid fa-share"></i> </span>
             </p>
           </div>
           <p>{props.description}</p>
