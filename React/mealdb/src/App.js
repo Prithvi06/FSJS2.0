@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import MealCard from './components/Card';
 
 function App() {
   const [mealName, setmealName] = useState("")
@@ -24,6 +25,8 @@ function App() {
         <input type="text" className="meal-input" placeholder="Search your meal" onChange={mealState}/>
         <button onClick={searchMeal} className="search-btn">Search</button>
       </form>
+
+      {mealData && <MealCard mealData={mealData} />}
     </div>
 
   )
