@@ -1,11 +1,13 @@
-import React from "react";
+const MealCard = ({ mealData }) => {
+  return (
+    <div className="meal-card">
+      {mealData.length > 0 ? (
+        mealData.map((meal) => <h3 key={meal.strMeal}>{meal.strMeal}</h3>)
+      ) : (
+        <h2>No data</h2>
+      )}
+    </div>
+  );
+};
 
-function MealCard(props){
-    return(
-        <div className="meal-card">
-            <h3>{props.meals.strMeal}</h3>
-
-        </div>
-    )
-}
-export default MealCard
+export default MealCard;
