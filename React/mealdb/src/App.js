@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 function App() {
   const [mealName, setmealName] = useState("")
+  const [mealData, setMealData] = useState({})
 
   const mealState = (e) => {
       setmealName(e.target.value)
@@ -12,7 +13,7 @@ function App() {
     var url = "www.themealdb.com/api/json/v1/1/search.php?s=" + mealName
     fetch(url)
     .then(response => response.json())
-    .then(data => console.log(data))
+    .then(data => {setMealData(data);console.log(data)})
     .catch(error => console.error(error))
   }
 
