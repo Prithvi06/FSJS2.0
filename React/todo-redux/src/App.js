@@ -70,7 +70,7 @@ function App() {
   return (
     <div className="App">
       <h1 className='text-center text-2xl font-sans font-bold mb-10 text-white'>TODO BOARD</h1>
-      <main className='flex flex-wrap justify-around'>
+      <main className='flex flex-wrap justify-around items-baseline'>
         <div className='mt-2 p-2 basis-1/4 tasks backdrop-blur-sm bg-white/30  rounded-md'>
           <h3 className='font-bold'>Project Todos
           <span className="text-rose-700 float-right cursor-pointer hover:text-rose-900" onClick={()=>{dispatch(removeAllTodo())}}> <i className="fa-solid fa-trash"></i></span>
