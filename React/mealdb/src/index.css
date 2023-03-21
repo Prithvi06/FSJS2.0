@@ -37,3 +37,24 @@ body{
   background-color: orange;
   color: white;
 }
+
+.meal-card{
+  margin-top: 30px;
+  display: flex;
+}
+.card{
+  flex-basis: 25%;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+.mealtheme{
+  border-radius: 6px;
+  width: 100%;
+  height: 250px;
+}
+.meal-info{
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
